@@ -22,7 +22,8 @@ async function verificarConexion(){
 // Middleware
 app.use(cors());
 app.use(express.json());
-
+app.get('/', (req,res)=>{
+	res.json("TODO BIEN")});
 // Ruta para guardar la suscripción
 app.post('/saveSubscription', (req, res) => {
   const { email, subscriptionCode } = req.body;
