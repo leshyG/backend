@@ -5,6 +5,10 @@ import fs from 'fs';
 import path from 'path';
 import { sequelize } from './db/db.js';
 import { Usuario } from './models/Usuario.js';
+import { Pago } from './models/Pago.js';
+import { Categoria } from './models/Categoria.js';
+import { Pedido } from './models/Pedido.js';
+import { Producto } from './models/Producto.js';
 
 const app = express();
 const PORT = 5000;
@@ -13,7 +17,7 @@ async function verificarConexion(){
   try{
     await sequelize.authenticate();
     console.log("Conectado a la BD")
-    await sequelize.sync();
+    await sequelize.sync(/*{ force: true }*/);
   }catch(error){
     console.log("ERROR: ",error)
   }
@@ -191,6 +195,27 @@ app.post('/contacto', (req, res) => {
   console.log(`Nuevo mensaje de contacto: ${nombre}, ${correo}, ${mensaje}`);
 
   res.json({ message: '¡Nos contactaremos pronto con usted!' });
+});
+
+// GETS PARA TESTEO 
+
+app.get('/producto/:id', async (req, res) => {
+  const producto = await Producto.findByPk( req.params.id, {
+    include: {
+      model: Categoria
+    }
+  } );
+  res.status(200).json(producto);
+});
+
+app.get('/pedido/:id', async (req, res) => {
+  const pedido = await Pedido.findByPk( req.params.id, {
+    include: [
+      { model: Usuario },
+      { model: Pago }
+    ]
+  } );
+  res.status(200).json(pedido);
 });
 
 // Iniciar el servidor

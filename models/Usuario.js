@@ -22,16 +22,4 @@ export const Usuario = sequelize.define(
     }, {
         freezeTableName: true
     }
-
 );
-
-//PARA LA RELACIÓN DE USUARIOS Y PRODUCTOS
-/*Usuario.hasMany(Producto, {
-    foreignKey: "usuario_id",
-    sourceKey: "id"
-});
-
-Producto.belongsTo(Usuario, {
-    foreignKey: "usuario_id",
-    targetKery: "id"
-});*/
