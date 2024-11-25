@@ -9,6 +9,7 @@ import { Pago } from './models/Pago.js';
 import { Categoria } from './models/Categoria.js';
 import { Pedido } from './models/Pedido.js';
 import { Producto } from './models/Producto.js';
+import { Sequelize } from 'sequelize';
 
 const app = express();
 const PORT = 5000;
@@ -175,16 +176,6 @@ app.delete('/deleteuser', async (req, res) => {
   res.json({ message: 'Eliminado exitoso', usuario });
 });
 
-//PRODUCTOS COMPRADOS DEL USUARIO
-
-/*app.get("userproducts/:id/producto", async (req,res)=>{
-  const productos = await Usuario.findByPk(req.params.id,{
-    include:{
-      model: Producto
-    }
-  })
-})*/
-
 // PÁGINA DE CONTACTO
 app.post('/contacto', (req, res) => {
   const { nombre, correo, mensaje } = req.body;
@@ -195,6 +186,28 @@ app.post('/contacto', (req, res) => {
   console.log(`Nuevo mensaje de contacto: ${nombre}, ${correo}, ${mensaje}`);
 
   res.json({ message: '¡Nos contactaremos pronto con usted!' });
+});
+
+app.post('/pedido', async (req, res) => {
+  const { id, fecha, estado, total, formapago, productos} = req.body;
+  if (!id || !fecha || !estado || !total || !formapago) {
+    return res.status(400).json({ error: 'Todos los campos son obligatorios.' });
+  }
+  const pago = await Pago.findOne({where: {nombre:formapago}});
+  const nuevoPedido = await Pedido.create({ fecha, estado, pago:total,usuarioId:id, pagoId:pago.id });
+
+  for (const productoData of productos) {
+    console.log(productoData)
+    const { id, cantidad, price } = productoData;
+    const producto = await Producto.findByPk(id);
+    await nuevoPedido.addProducto(producto, {
+      through: {
+        cantidad: cantidad,
+        precioU: price
+      }
+    });
+  }
+  res.json({ message: '¡Pedido Hecho!', pedido: nuevoPedido });
 });
 
 // GETS PARA TESTEO 
@@ -217,6 +230,37 @@ app.get('/pedido/:id', async (req, res) => {
   } );
   res.status(200).json(pedido);
 });
+
+app.get('/producto/:id', async (req, res) => {
+  const producto = await Producto.findByPk( req.params.id, {
+    include: {
+      model: Categoria
+    }
+  } );
+  res.status(200).json(producto);
+});
+
+//FETCH DE PRODUCTOS EN LA PÁGINA
+app.get("/products", async (req, res) => {
+  try {
+    const productos = await Producto.findAll({
+      attributes: ['id', 'title', 'description', 'price', 'discountPrice', 'discount', 'image'],
+      include: [
+        {
+          model: Categoria,
+          as: "Categorium",
+          attributes: ['nombre'],
+        },
+      ],
+    });
+    console.log(productos)
+    res.json({ products: productos });
+  } catch (error) {
+    console.error("Error fetching products:", error);
+    res.status(500).send("Error al obtener productos");
+  }
+});
+
 
 // Iniciar el servidor
 app.listen(PORT, () => {
