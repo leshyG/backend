@@ -12,7 +12,7 @@ import { Producto } from './models/Producto.js';
 import { Sequelize } from 'sequelize';
 
 const app = express();
-const PORT = 5000;
+const PORT = 8000;
 
 async function verificarConexion(){
   try{
