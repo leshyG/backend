@@ -935,15 +935,23 @@ const pedido = [
 
 async function ProductoInsertferre() {
   const productsferre = [
-      {
-        title: "Tornillos de Cabeza Hueca",
-        description: "Con un giro más profundo que los tornillos de cabeza plana y redondeada, estos soportan más torsión para un agarre más firme",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoNGP45aINpEOzcRxvSbmIxwy0harwNHgJYre6x07X6eeGuE7MDquN216LTS9NdnUK2Z4&usqp=CAU",
-        price: 44.95,
-        discountPrice: 29.45,
-        discount: "-34%",
-        categoriaId: 1
-      },
+    {
+      title: "Tornillos de Cabeza Plana",
+      description: "Se ajustan en agujeros avellanados para un acabado a ras",
+      image: "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/4122917_01/w=1500,h=1500,fit=pad",
+      price: 22.75,  // Precio original
+      discountPrice: 18.00,  // Precio con descuento
+      discount: "-21%",  // Descuento
+      priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
+      categoriaId: 1
+    },
+  
       {
         title: "Tornillos de Cabeza Redondeada",
         description: "Se sitúan justo por encima de la superficie para un acabado de bajo perfil y sostienen más firmemente que los tornillos de cabeza plana",
@@ -951,6 +959,13 @@ async function ProductoInsertferre() {
         price: 12.99,
         discountPrice: 8.99,
         discount: "-30%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -960,6 +975,13 @@ async function ProductoInsertferre() {
         price: 18.50,
         discountPrice: 13.99,
         discount: "-24%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -969,6 +991,13 @@ async function ProductoInsertferre() {
         price: 22.75,
         discountPrice: 18.00,
         discount: "-21%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -978,6 +1007,13 @@ async function ProductoInsertferre() {
         price: 9.80,
         discountPrice: 6.50,
         discount: "-34%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -987,6 +1023,13 @@ async function ProductoInsertferre() {
         price: 15.00,
         discountPrice: 10.50,
         discount: "-30%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -996,6 +1039,13 @@ async function ProductoInsertferre() {
         price: 20.00,
         discountPrice: 14.50,
         discount: "-27%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1005,6 +1055,13 @@ async function ProductoInsertferre() {
         price: 7.50,
         discountPrice: 5.25,
         discount: "-30%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1014,6 +1071,13 @@ async function ProductoInsertferre() {
         price: 11.20,
         discountPrice: 8.50,
         discount: "-24%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1023,6 +1087,13 @@ async function ProductoInsertferre() {
         price: 14.50,
         discountPrice: 10.00,
         discount: "-31%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1032,6 +1103,13 @@ async function ProductoInsertferre() {
         price: 18.80,
         discountPrice: 13.50,
         discount: "-28%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1041,6 +1119,13 @@ async function ProductoInsertferre() {
         price: 13.99,
         discountPrice: 9.99,
         discount: "-29%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1050,6 +1135,13 @@ async function ProductoInsertferre() {
         price: 7.99,
         discountPrice: 5.99,
         discount: "-25%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1059,6 +1151,13 @@ async function ProductoInsertferre() {
         price: 4.99,
         discountPrice: 3.00,
         discount: "-40%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1068,6 +1167,13 @@ async function ProductoInsertferre() {
         price: 10.99,
         discountPrice: 7.99,
         discount: "-27%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1077,6 +1183,13 @@ async function ProductoInsertferre() {
         price: 25.00,
         discountPrice: 18.00,
         discount: "-28%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1086,6 +1199,13 @@ async function ProductoInsertferre() {
         price: 9.50,
         discountPrice: 6.50,
         discount: "-31%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1095,6 +1215,13 @@ async function ProductoInsertferre() {
         price: 15.50,
         discountPrice: 11.50,
         discount: "-26%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1104,6 +1231,13 @@ async function ProductoInsertferre() {
         price: 8.20,
         discountPrice: 6.20,
         discount: "-24%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1113,6 +1247,13 @@ async function ProductoInsertferre() {
         price: 22.00,
         discountPrice: 16.00,
         discount: "-27%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1122,6 +1263,13 @@ async function ProductoInsertferre() {
         price: 20.50,
         discountPrice: 14.50,
         discount: "-29%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
   
@@ -1133,6 +1281,13 @@ async function ProductoInsertferre() {
         price: 12.00,
         discountPrice: 9.00,
         discount: "-25%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1142,6 +1297,13 @@ async function ProductoInsertferre() {
         price: 10.50,
         discountPrice: 7.50,
         discount: "-28%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1151,6 +1313,13 @@ async function ProductoInsertferre() {
         price: 18.00,
         discountPrice: 14.00,
         discount: "-22%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1160,6 +1329,13 @@ async function ProductoInsertferre() {
         price: 11.99,
         discountPrice: 9.00,
         discount: "-25%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1169,6 +1345,13 @@ async function ProductoInsertferre() {
         price: 13.50,
         discountPrice: 10.00,
         discount: "-26%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1178,6 +1361,13 @@ async function ProductoInsertferre() {
         price: 9.00,
         discountPrice: 6.50,
         discount: "-28%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1187,6 +1377,13 @@ async function ProductoInsertferre() {
         price: 15.00,
         discountPrice: 11.50,
         discount: "-23%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1196,6 +1393,13 @@ async function ProductoInsertferre() {
         price: 17.00,
         discountPrice: 13.50,
         discount: "-21%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1205,6 +1409,13 @@ async function ProductoInsertferre() {
         price: 12.80,
         discountPrice: 9.90,
         discount: "-23%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
       {
@@ -1214,6 +1425,13 @@ async function ProductoInsertferre() {
         price: 14.00,
         discountPrice: 10.50,
         discount: "-25%",
+        priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
         categoriaId: 1
       },
         {
@@ -1223,6 +1441,13 @@ async function ProductoInsertferre() {
             price: 50.00,
             discountPrice: 35.00,
             discount: "-30%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1232,6 +1457,13 @@ async function ProductoInsertferre() {
             price: 20.00,
             discountPrice: 15.00,
             discount: "-25%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1241,6 +1473,13 @@ async function ProductoInsertferre() {
             price: 75.00,
             discountPrice: 60.00,
             discount: "-20%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1250,6 +1489,13 @@ async function ProductoInsertferre() {
             price: 15.00,
             discountPrice: 10.00,
             discount: "-33%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1259,6 +1505,13 @@ async function ProductoInsertferre() {
             price: 25.00,
             discountPrice: 18.00,
             discount: "-28%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1268,6 +1521,13 @@ async function ProductoInsertferre() {
             price: 18.00,
             discountPrice: 12.50,
             discount: "-31%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1277,6 +1537,13 @@ async function ProductoInsertferre() {
             price: 10.00,
             discountPrice: 7.50,
             discount: "-25%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1286,6 +1553,13 @@ async function ProductoInsertferre() {
             price: 60.00,
             discountPrice: 45.00,
             discount: "-25%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1295,6 +1569,13 @@ async function ProductoInsertferre() {
             price: 12.00,
             discountPrice: 9.00,
             discount: "-25%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1304,6 +1585,13 @@ async function ProductoInsertferre() {
             price: 22.00,
             discountPrice: 17.50,
             discount: "-20%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1313,6 +1601,13 @@ async function ProductoInsertferre() {
             price: 8.00,
             discountPrice: 6.00,
             discount: "-25%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1322,6 +1617,13 @@ async function ProductoInsertferre() {
             price: 25.00,
             discountPrice: 19.00,
             discount: "-24%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1331,6 +1633,13 @@ async function ProductoInsertferre() {
             price: 30.00,
             discountPrice: 22.50,
             discount: "-25%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1340,6 +1649,13 @@ async function ProductoInsertferre() {
             price: 12.00,
             discountPrice: 9.50,
             discount: "-21%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1349,6 +1665,13 @@ async function ProductoInsertferre() {
             price: 45.00,
             discountPrice: 35.00,
             discount: "-22%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1358,6 +1681,13 @@ async function ProductoInsertferre() {
             price: 40.00,
             discountPrice: 30.00,
             discount: "-25%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1367,6 +1697,13 @@ async function ProductoInsertferre() {
             price: 18.00,
             discountPrice: 13.50,
             discount: "-25%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1376,6 +1713,13 @@ async function ProductoInsertferre() {
             price: 28.00,
             discountPrice: 21.00,
             discount: "-25%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1385,6 +1729,13 @@ async function ProductoInsertferre() {
             price: 33.00,
             discountPrice: 25.00,
             discount: "-24%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1394,6 +1745,13 @@ async function ProductoInsertferre() {
             price: 12.00,
             discountPrice: 9.00,
             discount: "-25%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1403,6 +1761,13 @@ async function ProductoInsertferre() {
             price: 22.00,
             discountPrice: 16.50,
             discount: "-25%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1412,6 +1777,13 @@ async function ProductoInsertferre() {
             price: 19.00,
             discountPrice: 14.50,
             discount: "-24%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1421,6 +1793,13 @@ async function ProductoInsertferre() {
             price: 15.00,
             discountPrice: 11.00,
             discount: "-27%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         },
         {
@@ -1430,6 +1809,13 @@ async function ProductoInsertferre() {
             price: 10.00,
             discountPrice: 7.50,
             discount: "-25%",
+            priceOption1: 25.50,  // Precio opción 1
+      priceOption2: 30.00,  // Precio opción 2
+      priceOption3: 35.00,  // Precio opción 3
+      priceOption4: 40.00,  // Precio opción 4
+      priceOption5: 45.00,  // Precio opción 5
+      priceOption6: 50.00,  // Precio opción 6
+      priceOption7: 55.00,  // Precio opción 7
             categoriaId: 2
         }
     
@@ -1437,6 +1823,9 @@ async function ProductoInsertferre() {
     
   ];
   try {
+    for (const producto of productsferre) {
+      await ProductoFerreteria.create(producto); // Inserta cada producto en la base de datos
+    }
     for (const product of productsferre) {
       // Verificar si el producto ya existe
       const exists = await ProductoFerreteria.findOne({

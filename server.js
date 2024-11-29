@@ -325,11 +325,11 @@ app.get("/products", async (req, res) => {
 
 
 
-//FETCH DE PRODUCTOS EN LA PÁGINA
+//FETCH DE FERRETERIA EN LA PÁGINA
 app.get("/Ferreteria", async (req, res) => {
   try {
     const productos = await ProductoFerreteria.findAll({
-      attributes: ['id', 'title', 'description', 'price', 'discountPrice', 'discount', 'image'],
+      attributes: ['id', 'title', 'description', 'price', 'discountPrice', 'discount', 'image','priceOption1','priceOption2','priceOption3','priceOption4','priceOption5','priceOption6','priceOption7'],
       include: [
         {
           model: Categoria,
