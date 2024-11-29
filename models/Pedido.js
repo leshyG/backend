@@ -1,6 +1,7 @@
 import { DataTypes } from "sequelize";
 import { sequelize } from "../db/db.js";
 import { Usuario } from "./Usuario.js";
+import { Producto } from "./Producto.js";
 
 export const Pedido = sequelize.define(
     "Pedido", {
@@ -23,6 +24,22 @@ export const Pedido = sequelize.define(
     }
 
 );
+export const Pedido_Producto = sequelize.define(
+    "Pedido_Producto", {
+        cantidad: {
+            type: DataTypes.INTEGER
+        },
+        precioU: {
+            type: DataTypes.FLOAT
+        }
+    }, {
+        freezeTableName: true,
+        timestamps: false
+    }
+);
+
+
+
 Usuario.hasMany(Pedido, {
     foreignKey: "usuarioId",
     targetKey: "id"
@@ -30,4 +47,12 @@ Usuario.hasMany(Pedido, {
 Pedido.belongsTo(Usuario, {
     foreignKey: "usuarioId",
     targetKey: "id"
+});
+
+Producto.belongsToMany(Pedido, {
+    through: Pedido_Producto
+});
+
+Pedido.belongsToMany(Producto, {
+    through: Pedido_Producto
 });

@@ -15,6 +15,11 @@ export const Usuario = sequelize.define(
         passwordHash: {
             type: DataTypes.STRING
         },
+        username: {
+            type: DataTypes.STRING,
+            defaultValue: "",
+            unique:true
+        },
         estado: {
             type: DataTypes.BOOLEAN,
             defaultValue: true
