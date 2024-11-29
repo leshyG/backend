@@ -3,13 +3,13 @@ import cors from 'cors';
 import bcrypt from 'bcryptjs';
 import fs from 'fs';
 import path from 'path';
-import { sequelize } from './db/db.js';
+import { sequelize } from '../backend/db/db.js';
 import { Usuario } from './models/Usuario.js';
 import { Pago } from './models/Pago.js';
 import { Categoria } from './models/Categoria.js';
 import { Pedido } from './models/Pedido.js';
 import { Producto } from './models/Producto.js';
-import { Sequelize } from 'sequelize';
+import { ProductoFerreteria} from './models/ProductoFerreteria.js';
 
 const app = express();
 const PORT = 8000;
@@ -23,6 +23,7 @@ async function verificarConexion(){
     console.log("ERROR: ",error)
   }
 }
+
 
 // Middleware
 app.use(cors());
@@ -260,6 +261,30 @@ app.get("/products", async (req, res) => {
     res.status(500).send("Error al obtener productos");
   }
 });
+
+
+
+//FETCH DE PRODUCTOS EN LA PÁGINA
+app.get("/Ferreteria", async (req, res) => {
+  try {
+    const productos = await ProductoFerreteria.findAll({
+      attributes: ['id', 'title', 'description', 'price', 'discountPrice', 'discount', 'image'],
+      include: [
+        {
+          model: Categoria,
+          as: "Categorium",
+          attributes: ['nombre'],
+        },
+      ],
+    });
+    console.log(productos)
+    res.json({ productsferre: productos });
+  } catch (error) {
+    console.error("Error fetching products:", error);
+    res.status(500).send("Error al obtener productos");
+  }
+});
+
 
 
 // Iniciar el servidor
