@@ -939,895 +939,898 @@ async function ProductoInsertferre() {
       title: "Tornillos de Cabeza Plana",
       description: "Se ajustan en agujeros avellanados para un acabado a ras",
       image: "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/4122917_01/w=1500,h=1500,fit=pad",
-      price: 22.75,  // Precio original
-      discountPrice: 18.00,  // Precio con descuento
-      discount: "-21%",  // Descuento
-      priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
+      price: 22.75,
+      discountPrice: 18.00,
+      discount: "-21%",
+      priceOption1: 24.25,
+      priceOption2: 25.50,
+      priceOption3: 26.75,
+      priceOption4: 28.00,
+      priceOption5: 29.25,
+      priceOption6: 30.50,
+      priceOption7: 31.75,
       categoriaId: 1
     },
   
-      {
-        title: "Tornillos de Cabeza Redondeada",
-        description: "Se sitúan justo por encima de la superficie para un acabado de bajo perfil y sostienen más firmemente que los tornillos de cabeza plana",
-        image: "https://img.freepik.com/vector-premium/ilustracion-tornillo-metal-aislado-sobre-fondo-blanco-cabeza-redonda-tipos-tornillos-ranurados-cruzados-hexagonales-vista-superior_212889-4520.jpg",
-        price: 12.99,
-        discountPrice: 8.99,
-        discount: "-30%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Cabeza Hexagonal",
-        description: "Se utilizan con tuercas para crear una unión más fuerte que los tornillos de cabeza plana y redondeada",
-        image: "https://ferrecito.com/cdn/shop/files/TORM-1-4X1-1-2_1024x.jpg?v=1710432573",
-        price: 18.50,
-        discountPrice: 13.99,
-        discount: "-24%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Cabeza Plana",
-        description: "Se ajustan en agujeros avellanados para un acabado a ras",
-        image: "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/4122917_01/w=1500,h=1500,fit=pad",
-        price: 22.75,
-        discountPrice: 18.00,
-        discount: "-21%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos para Atornillar",
-        description: "Fijan una variedad de materiales juntos sin necesidad de roscar el agujero primero",
-        image: "https://via.placeholder.com/80",
-        price: 9.80,
-        discountPrice: 6.50,
-        discount: "-34%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Hombro",
-        description: "Hacen girar partes alrededor del cilindro bajo la cabeza para guiarlas y alinearlas durante la instalación",
-        image: "https://via.placeholder.com/80",
-        price: 15.00,
-        discountPrice: 10.50,
-        discount: "-30%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Ajuste",
-        description: "Ejercen presión en la punta para mantener las partes en su lugar, a diferencia de los tornillos que mantienen el material unido con hilos",
-        image: "https://via.placeholder.com/80",
-        price: 20.00,
-        discountPrice: 14.50,
-        discount: "-27%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos para Madera",
-        description: "Fijan material a la madera o piezas de madera entre sí",
-        image: "https://via.placeholder.com/80",
-        price: 7.50,
-        discountPrice: 5.25,
-        discount: "-30%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Manija",
-        description: "Se aprietan y aflojan a mano sin necesidad de herramientas",
-        image: "https://via.placeholder.com/80",
-        price: 11.20,
-        discountPrice: 8.50,
-        discount: "-24%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Carro",
-        description: "Una cabeza lisa proporciona un acabado terminado mientras que un cuello cuadrado mantiene el tornillo en su lugar al usar una tuerca",
-        image: "https://via.placeholder.com/80",
-        price: 14.50,
-        discountPrice: 10.00,
-        discount: "-31%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de 12 Puntos",
-        description: "12 puntos de contacto manejan más torsión que una cabeza hexagonal mientras que un flanco elimina la necesidad de una arandela",
-        image: "https://via.placeholder.com/80",
-        price: 18.80,
-        discountPrice: 13.50,
-        discount: "-28%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos para Paneles Captivos",
-        description: "Aseguran paneles y recintos mientras aún se tiene acceso a ellos",
-        image: "https://via.placeholder.com/80",
-        price: 13.99,
-        discountPrice: 9.99,
-        discount: "-29%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos para Drywall",
-        description: "Fijan paneles de drywall a materiales como madera, metal y drywall",
-        image: "https://via.placeholder.com/80",
-        price: 7.99,
-        discountPrice: 5.99,
-        discount: "-25%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Asortimientos de Sujetadores",
-        description: "Mantente preparado teniendo sujetadores en tamaños y materiales comunes a mano",
-        image: "https://via.placeholder.com/80",
-        price: 4.99,
-        discountPrice: 3.00,
-        discount: "-40%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Cabeza Cuadrada",
-        description: "Gira los lados planos grandes con una llave en agujeros cuadrados que impiden la rotación adicional",
-        image: "https://via.placeholder.com/80",
-        price: 10.99,
-        discountPrice: 7.99,
-        discount: "-27%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Pernos de Elevador",
-        description: "Crea una unión al ras para permitir movimiento en espacios reducidos como elevadores de granos y sistemas de correas",
-        image: "https://via.placeholder.com/80",
-        price: 25.00,
-        discountPrice: 18.00,
-        discount: "-28%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Pernos de Suspensión",
-        description: "Sostén tuberías y otros accesorios con alambres o abrazaderas de cable",
-        image: "https://via.placeholder.com/80",
-        price: 9.50,
-        discountPrice: 6.50,
-        discount: "-31%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Pernos en T",
-        description: "Gira a mano para un fácil ajuste, úsalo como asa o como punto de fijación para correas y abrazaderas",
-        image: "https://via.placeholder.com/80",
-        price: 15.50,
-        discountPrice: 11.50,
-        discount: "-26%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Pernos de Arado",
-        description: "La cabeza queda al ras con los orificios avellanados mientras el perno permanece en su lugar al apretar una tuerca",
-        image: "https://via.placeholder.com/80",
-        price: 8.20,
-        discountPrice: 6.20,
-        discount: "-24%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Pernos de Extremo",
-        description: "Diseñado para aplicaciones en las que una rosca o tuerca se usa en la misma dirección",
-        image: "https://via.placeholder.com/80",
-        price: 22.00,
-        discountPrice: 16.00,
-        discount: "-27%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Pernos de Sujeción",
-        description: "Sujeta el material debajo de la cabeza doblada mientras el otro extremo se aprieta con una tuerca",
-        image: "https://via.placeholder.com/80",
-        price: 20.50,
-        discountPrice: 14.50,
-        discount: "-29%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-  
-  
-      {
-        title: "Tornillos de Acero Inoxidable",
-        description: "Resistentes a la corrosión, ideales para aplicaciones al aire libre o en ambientes húmedos.",
-        image: "https://via.placeholder.com/80",
-        price: 12.00,
-        discountPrice: 9.00,
-        discount: "-25%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Cabeza Blanda",
-        description: "Perfectos para trabajos de bajo impacto y donde se requiere un agarre seguro.",
-        image: "https://via.placeholder.com/80",
-        price: 10.50,
-        discountPrice: 7.50,
-        discount: "-28%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos Antideslizantes",
-        description: "Tornillos diseñados para evitar el deslizamiento en superficies difíciles.",
-        image: "https://via.placeholder.com/80",
-        price: 18.00,
-        discountPrice: 14.00,
-        discount: "-22%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Ángulo Recto",
-        description: "Diseñados para ser insertados en ángulos rectos para aplicaciones estructurales y de construcción.",
-        image: "https://via.placeholder.com/80",
-        price: 11.99,
-        discountPrice: 9.00,
-        discount: "-25%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos para Techado",
-        description: "Ideales para asegurar materiales en techos y tejados, resistentes a las inclemencias del tiempo.",
-        image: "https://via.placeholder.com/80",
-        price: 13.50,
-        discountPrice: 10.00,
-        discount: "-26%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos Automáticos",
-        description: "Diseñados para ser colocados con facilidad mediante un dispositivo automático.",
-        image: "https://via.placeholder.com/80",
-        price: 9.00,
-        discountPrice: 6.50,
-        discount: "-28%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Precisión",
-        description: "Para aplicaciones donde se requiere un ajuste preciso y una alta resistencia.",
-        image: "https://via.placeholder.com/80",
-        price: 15.00,
-        discountPrice: 11.50,
-        discount: "-23%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Zócalo",
-        description: "Utilizados para sujetar las partes inferiores de las estructuras y otros componentes.",
-        image: "https://via.placeholder.com/80",
-        price: 17.00,
-        discountPrice: 13.50,
-        discount: "-21%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Cabeza Ajustable",
-        description: "Permiten el ajuste de la profundidad según la necesidad de la instalación.",
-        image: "https://via.placeholder.com/80",
-        price: 12.80,
-        discountPrice: 9.90,
-        discount: "-23%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Vástago Largo",
-        description: "Diseñados para aplicaciones que requieren una longitud adicional para asegurar una mejor fijación.",
-        image: "https://via.placeholder.com/80",
-        price: 14.00,
-        discountPrice: 10.50,
-        discount: "-25%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-        {
-            title: "Adhesivos",
-            description: "Une superficies",
-            image: "https://via.placeholder.com/80",
-            price: 50.00,
-            discountPrice: 35.00,
-            discount: "-30%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Boquillas para pistolas dispensadoras de adhesivo",
-            description: "Usar con cartuchos en pistolas dispensadoras para controlar el flujo de adhesivo",
-            image: "https://via.placeholder.com/80",
-            price: 20.00,
-            discountPrice: 15.00,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Pistolas dispensadoras de adhesivo",
-            description: "Aplica cordones de adhesivo desde un cartucho a superficies",
-            image: "https://via.placeholder.com/80",
-            price: 75.00,
-            discountPrice: 60.00,
-            discount: "-20%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Émbolos para cartuchos de pistolas dispensadoras de adhesivo",
-            description: "Usar con jeringas o cartuchos de pistolas dispensadoras para empujar el adhesivo hacia afuera",
-            image: "https://via.placeholder.com/80",
-            price: 15.00,
-            discountPrice: 10.00,
-            discount: "-33%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Portacartuchos para pistolas dispensadoras de adhesivo",
-            description: "Mantiene los cartuchos de adhesivo en su lugar de forma segura",
-            image: "https://via.placeholder.com/80",
-            price: 25.00,
-            discountPrice: 18.00,
-            discount: "-28%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Cartuchos para pistolas dispensadoras de adhesivo",
-            description: "Llenar y luego montar en pistolas dispensadoras para aplicar adhesivos a superficies",
-            image: "https://via.placeholder.com/80",
-            price: 18.00,
-            discountPrice: 12.50,
-            discount: "-31%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Convertidores para pistolas de pegamento",
-            description: "Agregar a pistolas de pegamento para usar barras de pegamento de 8\" de largo",
-            image: "https://via.placeholder.com/80",
-            price: 10.00,
-            discountPrice: 7.50,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Pistolas de pegamento",
-            description: "Derrite y dispensa pegamento termofusible",
-            image: "https://via.placeholder.com/80",
-            price: 60.00,
-            discountPrice: 45.00,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Boquillas para pistolas de pegamento",
-            description: "Acopla a pistolas de pegamento para controlar el flujo de pegamento",
-            image: "https://via.placeholder.com/80",
-            price: 12.00,
-            discountPrice: 9.00,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Dispensadores de tubos",
-            description: "Exprime todo el contenido de los tubos",
-            image: "https://via.placeholder.com/80",
-            price: 22.00,
-            discountPrice: 17.50,
-            discount: "-20%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Tapas selladoras para cartuchos",
-            description: "Colocar sobre las puntas de cartuchos de adhesivo y sellador para evitar que se endurezcan",
-            image: "https://via.placeholder.com/80",
-            price: 8.00,
-            discountPrice: 6.00,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Dispensadores de bloqueadores de roscas y compuestos de retención",
-            description: "Atornillar en botellas de bloqueador de roscas o compuesto de retención para controlar el flujo y reducir desperdicio",
-            image: "https://via.placeholder.com/80",
-            price: 25.00,
-            discountPrice: 19.00,
-            discount: "-24%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Dispensadores de pegamento en rollo",
-            description: "Aprieta el gatillo para retirar el revestimiento y aplicar pegamento en rollo; también conocido como cinta adhesiva de transferencia",
-            image: "https://via.placeholder.com/80",
-            price: 30.00,
-            discountPrice: 22.50,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Brochas para adhesivo",
-            description: "Esparce adhesivos en partes y otras superficies",
-            image: "https://via.placeholder.com/80",
-            price: 12.00,
-            discountPrice: 9.50,
-            discount: "-21%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Rodillos de laminado",
-            description: "Comprime láminas laminadas, extiende adhesivos y expulsa burbujas de aire para formar uniones fuertes",
-            image: "https://via.placeholder.com/80",
-            price: 45.00,
-            discountPrice: 35.00,
-            discount: "-22%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Ollas de pegamento",
-            description: "Almacena adhesivos, cementos y lacas para evitar que se endurezcan",
-            image: "https://via.placeholder.com/80",
-            price: 40.00,
-            discountPrice: 30.00,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Bloqueadores de roscas",
-            description: "Cubre las roscas en los sujetadores roscados para evitar que se aflojen debido a impactos y vibraciones",
-            image: "https://via.placeholder.com/80",
-            price: 18.00,
-            discountPrice: 13.50,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Activadores de adhesivo",
-            description: "Agrega a adhesivos estructurales acrílicos sin mezcla para crear uniones fuertes",
-            image: "https://via.placeholder.com/80",
-            price: 28.00,
-            discountPrice: 21.00,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Compuestos de retención",
-            description: "Llena huecos para unir ejes, rodamientos, poleas, engranajes y otras partes metálicas cilíndricas",
-            image: "https://via.placeholder.com/80",
-            price: 33.00,
-            discountPrice: 25.00,
-            discount: "-24%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Cuentas espaciadoras de adhesivo",
-            description: "Agrega a adhesivos estructurales e instantáneos para evitar que se derramen durante el prensado",
-            image: "https://via.placeholder.com/80",
-            price: 12.00,
-            discountPrice: 9.00,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Imprimadores de adhesivo",
-            description: "Prepara superficies antes de agregar adhesivos para mejorar la resistencia de la unión",
-            image: "https://via.placeholder.com/80",
-            price: 22.00,
-            discountPrice: 16.50,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Aceleradores de adhesivo",
-            description: "Acelera el tiempo que tarda el adhesivo en alcanzar su máxima resistencia",
-            image: "https://via.placeholder.com/80",
-            price: 19.00,
-            discountPrice: 14.50,
-            discount: "-24%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Fluido antideslizante",
-            description: "Aplicar en las cabezas de los sujetadores para evitar que destornilladores, llaves y alicates se deslicen",
-            image: "https://via.placeholder.com/80",
-            price: 15.00,
-            discountPrice: 11.00,
-            discount: "-27%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Cinta",
-            description: "Une, sella y marca superficies",
-            image: "https://via.placeholder.com/80",
-            price: 10.00,
-            discountPrice: 7.50,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        }
+    {
+      title: "Tornillos de Cabeza Redondeada",
+      description: "Se sitúan justo por encima de la superficie para un acabado de bajo perfil y sostienen más firmemente que los tornillos de cabeza plana",
+      image: "https://img.freepik.com/vector-premium/ilustracion-tornillo-metal-aislado-sobre-fondo-blanco-cabeza-redonda-tipos-tornillos-ranurados-cruzados-hexagonales-vista-superior_212889-4520.jpg",
+      price: 12.99,
+      discountPrice: 8.99,
+      discount: "-30%",
+      priceOption1: 14.49,
+      priceOption2: 15.99,
+      priceOption3: 17.49,
+      priceOption4: 18.99,
+      priceOption5: 20.49,
+      priceOption6: 21.99,
+      priceOption7: 23.49,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Cabeza Hexagonal",
+      description: "Se utilizan con tuercas para crear una unión más fuerte que los tornillos de cabeza plana y redondeada",
+      image: "https://ferrecito.com/cdn/shop/files/TORM-1-4X1-1-2_1024x.jpg?v=1710432573",
+      price: 18.50,
+      discountPrice: 13.99,
+      discount: "-24%",
+      priceOption1: 20.50,
+      priceOption2: 22.00,
+      priceOption3: 23.50,
+      priceOption4: 25.00,
+      priceOption5: 26.50,
+      priceOption6: 28.00,
+      priceOption7: 29.50,
+      categoriaId: 1
+    }
+    ,
+    {
+      title: "Tornillos de Cabeza Plana",
+      description: "Se ajustan en agujeros avellanados para un acabado a ras",
+      image: "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/4122917_01/w=1500,h=1500,fit=pad",
+      price: 22.75,
+      discountPrice: 18.00,
+      discount: "-21%",
+      priceOption1: 24.00,
+      priceOption2: 25.50,
+      priceOption3: 27.00,
+      priceOption4: 28.50,
+      priceOption5: 30.00,
+      priceOption6: 31.50,
+      priceOption7: 33.00,
+      categoriaId: 1
+    }
+    ,
+    {
+      title: "Tornillos para Atornillar",
+      description: "Fijan una variedad de materiales juntos sin necesidad de roscar el agujero primero",
+      image: "https://via.placeholder.com/80",
+      price: 9.80,
+      discountPrice: 6.50,
+      discount: "-34%",
+      priceOption1: 11.00,
+      priceOption2: 12.50,
+      priceOption3: 14.00,
+      priceOption4: 15.50,
+      priceOption5: 17.00,
+      priceOption6: 18.50,
+      priceOption7: 20.00,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Hombro",
+      description: "Hacen girar partes alrededor del cilindro bajo la cabeza para guiarlas y alinearlas durante la instalación",
+      image: "https://via.placeholder.com/80",
+      price: 15.00,
+      discountPrice: 10.50,
+      discount: "-30%",
+      priceOption1: 16.50,
+      priceOption2: 18.00,
+      priceOption3: 19.50,
+      priceOption4: 21.00,
+      priceOption5: 22.50,
+      priceOption6: 24.00,
+      priceOption7: 25.50,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Ajuste",
+      description: "Ejercen presión en la punta para mantener las partes en su lugar, a diferencia de los tornillos que mantienen el material unido con hilos",
+      image: "https://via.placeholder.com/80",
+      price: 20.00,
+      discountPrice: 14.50,
+      discount: "-27%",
+      priceOption1: 21.50,
+      priceOption2: 23.00,
+      priceOption3: 24.50,
+      priceOption4: 26.00,
+      priceOption5: 27.50,
+      priceOption6: 29.00,
+      priceOption7: 30.50,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos para Madera",
+      description: "Fijan material a la madera o piezas de madera entre sí",
+      image: "https://via.placeholder.com/80",
+      price: 7.50,
+      discountPrice: 5.25,
+      discount: "-30%",
+      priceOption1: 8.50,
+      priceOption2: 9.50,
+      priceOption3: 10.50,
+      priceOption4: 11.50,
+      priceOption5: 12.50,
+      priceOption6: 13.50,
+      priceOption7: 14.50,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Manija",
+      description: "Se aprietan y aflojan a mano sin necesidad de herramientas",
+      image: "https://via.placeholder.com/80",
+      price: 11.20,
+      discountPrice: 8.50,
+      discount: "-24%",
+      priceOption1: 12.50,
+      priceOption2: 13.50,
+      priceOption3: 14.50,
+      priceOption4: 15.50,
+      priceOption5: 16.50,
+      priceOption6: 17.50,
+      priceOption7: 18.50,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Carro",
+      description: "Una cabeza lisa proporciona un acabado terminado mientras que un cuello cuadrado mantiene el tornillo en su lugar al usar una tuerca",
+      image: "https://via.placeholder.com/80",
+      price: 14.50,
+      discountPrice: 10.00,
+      discount: "-31%",
+      priceOption1: 16.00,
+      priceOption2: 17.50,
+      priceOption3: 19.00,
+      priceOption4: 20.50,
+      priceOption5: 22.00,
+      priceOption6: 23.50,
+      priceOption7: 25.00,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de 12 Puntos",
+      description: "12 puntos de contacto manejan más torsión que una cabeza hexagonal mientras que un flanco elimina la necesidad de una arandela",
+      image: "https://via.placeholder.com/80",
+      price: 18.80,
+      discountPrice: 13.50,
+      discount: "-28%",
+      priceOption1: 20.00,
+      priceOption2: 21.50,
+      priceOption3: 23.00,
+      priceOption4: 24.50,
+      priceOption5: 26.00,
+      priceOption6: 27.50,
+      priceOption7: 29.00,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos para Paneles Captivos",
+      description: "Aseguran paneles y recintos mientras aún se tiene acceso a ellos",
+      image: "https://via.placeholder.com/80",
+      price: 13.99,
+      discountPrice: 9.99,
+      discount: "-29%",
+      priceOption1: 15.00,
+      priceOption2: 16.50,
+      priceOption3: 18.00,
+      priceOption4: 19.50,
+      priceOption5: 21.00,
+      priceOption6: 22.50,
+      priceOption7: 24.00,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos para Drywall",
+      description: "Fijan paneles de drywall a materiales como madera, metal y drywall",
+      image: "https://via.placeholder.com/80",
+      price: 7.99,
+      discountPrice: 5.99,
+      discount: "-25%",
+      priceOption1: 9.00,
+      priceOption2: 10.00,
+      priceOption3: 11.00,
+      priceOption4: 12.00,
+      priceOption5: 13.00,
+      priceOption6: 14.00,
+      priceOption7: 15.00,
+      categoriaId: 1
+    }
+    ,{
+      title: "Asortimientos de Sujetadores",
+      description: "Mantente preparado teniendo sujetadores en tamaños y materiales comunes a mano",
+      image: "https://via.placeholder.com/80",
+      price: 4.99,
+      discountPrice: 3.00,
+      discount: "-40%",
+      priceOption1: 6.99,
+      priceOption2: 8.49,
+      priceOption3: 10.99,
+      priceOption4: 13.99,
+      priceOption5: 16.99,
+      priceOption6: 19.49,
+      priceOption7: 22.99,
+      categoriaId: 1
+    },
+      
+    {
+      title: "Tornillos de Cabeza Cuadrada",
+      description: "Gira los lados planos grandes con una llave en agujeros cuadrados que impiden la rotación adicional",
+      image: "https://via.placeholder.com/80",
+      price: 10.99,
+      discountPrice: 7.99,
+      discount: "-27%",
+      priceOption1: 12.99,
+      priceOption2: 14.49,
+      priceOption3: 16.49,
+      priceOption4: 18.99,
+      priceOption5: 21.49,
+      priceOption6: 23.99,
+      priceOption7: 25.99,
+      categoriaId: 1
+    },
+    {
+      title: "Pernos de Elevador",
+      description: "Crea una unión al ras para permitir movimiento en espacios reducidos como elevadores de granos y sistemas de correas",
+      image: "https://via.placeholder.com/80",
+      price: 25.00,
+      discountPrice: 18.00,
+      discount: "-28%",
+      priceOption1: 27.99,
+      priceOption2: 30.49,
+      priceOption3: 33.99,
+      priceOption4: 36.49,
+      priceOption5: 39.99,
+      priceOption6: 42.49,
+      priceOption7: 44.99,
+      categoriaId: 1
+    },
+    {
+      title: "Pernos de Suspensión",
+      description: "Sostén tuberías y otros accesorios con alambres o abrazaderas de cable",
+      image: "https://via.placeholder.com/80",
+      price: 9.50,
+      discountPrice: 6.50,
+      discount: "-31%",
+      priceOption1: 11.99,
+      priceOption2: 13.49,
+      priceOption3: 15.49,
+      priceOption4: 17.49,
+      priceOption5: 19.99,
+      priceOption6: 21.99,
+      priceOption7: 23.99,
+      categoriaId: 1
+    },
+    {
+      title: "Pernos en T",
+      description: "Gira a mano para un fácil ajuste, úsalo como asa o como punto de fijación para correas y abrazaderas",
+      image: "https://via.placeholder.com/80",
+      price: 15.50,
+      discountPrice: 11.50,
+      discount: "-26%",
+      priceOption1: 17.99,
+      priceOption2: 20.49,
+      priceOption3: 22.99,
+      priceOption4: 25.49,
+      priceOption5: 27.99,
+      priceOption6: 30.49,
+      priceOption7: 32.99,
+      categoriaId: 1
+    },
+    {
+      title: "Pernos de Arado",
+      description: "La cabeza queda al ras con los orificios avellanados mientras el perno permanece en su lugar al apretar una tuerca",
+      image: "https://via.placeholder.com/80",
+      price: 8.20,
+      discountPrice: 6.20,
+      discount: "-24%",
+      priceOption1: 9.99,
+      priceOption2: 11.49,
+      priceOption3: 12.99,
+      priceOption4: 14.49,
+      priceOption5: 15.99,
+      priceOption6: 17.49,
+      priceOption7: 18.99,
+      categoriaId: 1
+    },
     
+    {
+      title: "Pernos de Extremo",
+      description: "Diseñado para aplicaciones en las que una rosca o tuerca se usa en la misma dirección",
+      image: "https://via.placeholder.com/80",
+      price: 22.00,
+      discountPrice: 16.00,
+      discount: "-27%",
+      priceOption1: 23.99,
+      priceOption2: 25.99,
+      priceOption3: 27.99,
+      priceOption4: 29.99,
+      priceOption5: 31.99,
+      priceOption6: 34.49,
+      priceOption7: 36.99,
+      categoriaId: 1
+    },
+    {
+      title: "Pernos de Sujeción",
+      description: "Sujeta el material debajo de la cabeza doblada mientras el otro extremo se aprieta con una tuerca",
+      image: "https://via.placeholder.com/80",
+      price: 20.50,
+      discountPrice: 14.50,
+      discount: "-29%",
+      priceOption1: 22.99,
+      priceOption2: 24.99,
+      priceOption3: 27.49,
+      priceOption4: 29.99,
+      priceOption5: 32.49,
+      priceOption6: 34.99,
+      priceOption7: 36.99,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Acero Inoxidable",
+      description: "Resistentes a la corrosión, ideales para aplicaciones al aire libre o en ambientes húmedos.",
+      image: "https://via.placeholder.com/80",
+      price: 12.00,
+      discountPrice: 9.00,
+      discount: "-25%",
+      priceOption1: 13.99,
+      priceOption2: 15.49,
+      priceOption3: 17.49,
+      priceOption4: 19.49,
+      priceOption5: 21.49,
+      priceOption6: 23.49,
+      priceOption7: 25.49,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Cabeza Blanda",
+      description: "Perfectos para trabajos de bajo impacto y donde se requiere un agarre seguro.",
+      image: "https://via.placeholder.com/80",
+      price: 10.50,
+      discountPrice: 7.50,
+      discount: "-28%",
+      priceOption1: 11.99,
+      priceOption2: 13.49,
+      priceOption3: 14.99,
+      priceOption4: 16.49,
+      priceOption5: 18.49,
+      priceOption6: 20.49,
+      priceOption7: 22.49,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos Antideslizantes",
+      description: "Tornillos diseñados para evitar el deslizamiento en superficies difíciles.",
+      image: "https://via.placeholder.com/80",
+      price: 18.00,
+      discountPrice: 14.00,
+      discount: "-22%",
+      priceOption1: 19.99,
+      priceOption2: 21.49,
+      priceOption3: 23.49,
+      priceOption4: 25.49,
+      priceOption5: 27.49,
+      priceOption6: 29.49,
+      priceOption7: 31.49,
+      categoriaId: 1
+    },
+    
+    {
+      title: "Pernos de Extremo",
+      description: "Diseñado para aplicaciones en las que una rosca o tuerca se usa en la misma dirección",
+      image: "https://via.placeholder.com/80",
+      price: 22.00,
+      discountPrice: 16.00,
+      discount: "-27%",
+      priceOption1: 23.99,
+      priceOption2: 25.99,
+      priceOption3: 27.99,
+      priceOption4: 29.99,
+      priceOption5: 31.99,
+      priceOption6: 34.49,
+      priceOption7: 36.99,
+      categoriaId: 1
+    },
+    {
+      title: "Pernos de Sujeción",
+      description: "Sujeta el material debajo de la cabeza doblada mientras el otro extremo se aprieta con una tuerca",
+      image: "https://via.placeholder.com/80",
+      price: 20.50,
+      discountPrice: 14.50,
+      discount: "-29%",
+      priceOption1: 22.99,
+      priceOption2: 24.99,
+      priceOption3: 27.49,
+      priceOption4: 29.99,
+      priceOption5: 32.49,
+      priceOption6: 34.99,
+      priceOption7: 36.99,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Acero Inoxidable",
+      description: "Resistentes a la corrosión, ideales para aplicaciones al aire libre o en ambientes húmedos.",
+      image: "https://via.placeholder.com/80",
+      price: 12.00,
+      discountPrice: 9.00,
+      discount: "-25%",
+      priceOption1: 13.99,
+      priceOption2: 15.49,
+      priceOption3: 17.49,
+      priceOption4: 19.49,
+      priceOption5: 21.49,
+      priceOption6: 23.49,
+      priceOption7: 25.49,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Cabeza Blanda",
+      description: "Perfectos para trabajos de bajo impacto y donde se requiere un agarre seguro.",
+      image: "https://via.placeholder.com/80",
+      price: 10.50,
+      discountPrice: 7.50,
+      discount: "-28%",
+      priceOption1: 11.99,
+      priceOption2: 13.49,
+      priceOption3: 14.99,
+      priceOption4: 16.49,
+      priceOption5: 18.49,
+      priceOption6: 20.49,
+      priceOption7: 22.49,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos Antideslizantes",
+      description: "Tornillos diseñados para evitar el deslizamiento en superficies difíciles.",
+      image: "https://via.placeholder.com/80",
+      price: 18.00,
+      discountPrice: 14.00,
+      discount: "-22%",
+      priceOption1: 19.99,
+      priceOption2: 21.49,
+      priceOption3: 23.49,
+      priceOption4: 25.49,
+      priceOption5: 27.49,
+      priceOption6: 29.49,
+      priceOption7: 31.49,
+      categoriaId: 1
+    },
+    
+    {
+      title: "Tornillos de Cabeza Ajustable",
+      description: "Permiten el ajuste de la profundidad según la necesidad de la instalación.",
+      image: "https://via.placeholder.com/80",
+      price: 12.80,
+      discountPrice: 9.90,
+      discount: "-23%",
+      priceOption1: 15.50,
+      priceOption2: 16.50,
+      priceOption3: 17.50,
+      priceOption4: 18.50,
+      priceOption5: 19.50,
+      priceOption6: 20.00,
+      priceOption7: 21.00,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Vástago Largo",
+      description: "Diseñados para aplicaciones que requieren una longitud adicional para asegurar una mejor fijación.",
+      image: "https://via.placeholder.com/80",
+      price: 14.00,
+      discountPrice: 10.50,
+      discount: "-25%",
+      priceOption1: 16.50,
+      priceOption2: 17.50,
+      priceOption3: 18.50,
+      priceOption4: 19.50,
+      priceOption5: 20.50,
+      priceOption6: 21.00,
+      priceOption7: 22.00,
+      categoriaId: 1
+    },
+    {
+      title: "Adhesivos",
+      description: "Une superficies",
+      image: "https://via.placeholder.com/80",
+      price: 50.00,
+      discountPrice: 35.00,
+      discount: "-30%",
+      priceOption1: 31.50,
+      priceOption2: 35.00,
+      priceOption3: 37.50,
+      priceOption4: 40.00,
+      priceOption5: 42.00,
+      priceOption6: 45.00,
+      priceOption7: 46.50,
+      categoriaId: 2
+    },
+    {
+      title: "Boquillas para pistolas dispensadoras de adhesivo",
+      description: "Usar con cartuchos en pistolas dispensadoras para controlar el flujo de adhesivo",
+      image: "https://via.placeholder.com/80",
+      price: 20.00,
+      discountPrice: 15.00,
+      discount: "-25%",
+      priceOption1: 25.50,
+      priceOption2: 26.00,
+      priceOption3: 28.00,
+      priceOption4: 30.00,
+      priceOption5: 32.00,
+      priceOption6: 33.00,
+      priceOption7: 34.00,
+      categoriaId: 2
+    },
+    {
+      title: "Pistolas dispensadoras de adhesivo",
+      description: "Aplica cordones de adhesivo desde un cartucho a superficies",
+      image: "https://via.placeholder.com/80",
+      price: 75.00,
+      discountPrice: 60.00,
+      discount: "-20%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 40.00,
+      priceOption4: 42.00,
+      priceOption5: 45.00,
+      priceOption6: 47.50,
+      priceOption7: 50.00,
+      categoriaId: 2
+    },
+    {
+      title: "Émbolos para cartuchos de pistolas dispensadoras de adhesivo",
+      description: "Usar con jeringas o cartuchos de pistolas dispensadoras para empujar el adhesivo hacia afuera",
+      image: "https://via.placeholder.com/80",
+      price: 15.00,
+      discountPrice: 10.00,
+      discount: "-33%",
+      priceOption1: 18.50,
+      priceOption2: 19.50,
+      priceOption3: 21.00,
+      priceOption4: 22.50,
+      priceOption5: 23.50,
+      priceOption6: 25.00,
+      priceOption7: 26.00,
+      categoriaId: 2
+    },
+    
+    {
+      title: "Portacartuchos para pistolas dispensadoras de adhesivo",
+      description: "Mantiene los cartuchos de adhesivo en su lugar de forma segura",
+      image: "https://via.placeholder.com/80",
+      price: 25.00,
+      discountPrice: 18.00,
+      discount: "-28%",
+      priceOption1: 31.50,
+      priceOption2: 32.50,
+      priceOption3: 34.50,
+      priceOption4: 36.50,
+      priceOption5: 38.00,
+      priceOption6: 39.50,
+      priceOption7: 41.00,
+      categoriaId: 2
+    },
+    {
+      title: "Cartuchos para pistolas dispensadoras de adhesivo",
+      description: "Llenar y luego montar en pistolas dispensadoras para aplicar adhesivos a superficies",
+      image: "https://via.placeholder.com/80",
+      price: 18.00,
+      discountPrice: 12.50,
+      discount: "-31%",
+      priceOption1: 31.50,
+      priceOption2: 32.50,
+      priceOption3: 34.50,
+      priceOption4: 36.50,
+      priceOption5: 38.00,
+      priceOption6: 39.50,
+      priceOption7: 41.00,
+      categoriaId: 2
+    },
+    {
+      title: "Convertidores para pistolas de pegamento",
+      description: "Agregar a pistolas de pegamento para usar barras de pegamento de 8\" de largo",
+      image: "https://via.placeholder.com/80",
+      price: 10.00,
+      discountPrice: 7.50,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 32.50,
+      priceOption3: 34.50,
+      priceOption4: 36.50,
+      priceOption5: 38.00,
+      priceOption6: 39.50,
+      priceOption7: 41.00,
+      categoriaId: 2
+    },
+    {
+      title: "Pistolas de pegamento",
+      description: "Derrite y dispensa pegamento termofusible",
+      image: "https://via.placeholder.com/80",
+      price: 60.00,
+      discountPrice: 45.00,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 40.00,
+      priceOption4: 42.00,
+      priceOption5: 45.00,
+      priceOption6: 47.50,
+      priceOption7: 50.00,
+      categoriaId: 2
+    },
+    {
+      title: "Boquillas para pistolas de pegamento",
+      description: "Acopla a pistolas de pegamento para controlar el flujo de pegamento",
+      image: "https://via.placeholder.com/80",
+      price: 12.00,
+      discountPrice: 9.00,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 32.50,
+      priceOption3: 34.50,
+      priceOption4: 36.50,
+      priceOption5: 38.00,
+      priceOption6: 39.50,
+      priceOption7: 41.00,
+      categoriaId: 2
+    },
+    {
+      title: "Dispensadores de tubos",
+      description: "Exprime todo el contenido de los tubos",
+      image: "https://via.placeholder.com/80",
+      price: 22.00,
+      discountPrice: 17.50,
+      discount: "-20%",
+      priceOption1: 31.50,
+      priceOption2: 32.50,
+      priceOption3: 34.50,
+      priceOption4: 36.50,
+      priceOption5: 38.00,
+      priceOption6: 39.50,
+      priceOption7: 41.00,
+      categoriaId: 2
+    },
+    
+    {
+      title: "Tapas selladoras para cartuchos",
+      description: "Colocar sobre las puntas de cartuchos de adhesivo y sellador para evitar que se endurezcan",
+      image: "https://via.placeholder.com/80",
+      price: 8.00,
+      discountPrice: 6.00,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Dispensadores de bloqueadores de roscas y compuestos de retención",
+      description: "Atornillar en botellas de bloqueador de roscas o compuesto de retención para controlar el flujo y reducir desperdicio",
+      image: "https://via.placeholder.com/80",
+      price: 25.00,
+      discountPrice: 19.00,
+      discount: "-24%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Dispensadores de pegamento en rollo",
+      description: "Aprieta el gatillo para retirar el revestimiento y aplicar pegamento en rollo; también conocido como cinta adhesiva de transferencia",
+      image: "https://via.placeholder.com/80",
+      price: 30.00,
+      discountPrice: 22.50,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Brochas para adhesivo",
+      description: "Esparce adhesivos en partes y otras superficies",
+      image: "https://via.placeholder.com/80",
+      price: 12.00,
+      discountPrice: 9.50,
+      discount: "-21%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Rodillos de laminado",
+      description: "Comprime láminas laminadas, extiende adhesivos y expulsa burbujas de aire para formar uniones fuertes",
+      image: "https://via.placeholder.com/80",
+      price: 45.00,
+      discountPrice: 35.00,
+      discount: "-22%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Ollas de pegamento",
+      description: "Almacena adhesivos, cementos y lacas para evitar que se endurezcan",
+      image: "https://via.placeholder.com/80",
+      price: 40.00,
+      discountPrice: 30.00,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Bloqueadores de roscas",
+      description: "Cubre las roscas en los sujetadores roscados para evitar que se aflojen debido a impactos y vibraciones",
+      image: "https://via.placeholder.com/80",
+      price: 18.00,
+      discountPrice: 13.50,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Activadores de adhesivo",
+      description: "Agrega a adhesivos estructurales acrílicos sin mezcla para crear uniones fuertes",
+      image: "https://via.placeholder.com/80",
+      price: 28.00,
+      discountPrice: 21.00,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Compuestos de retención",
+      description: "Llena huecos para unir ejes, rodamientos, poleas, engranajes y otras partes metálicas cilíndricas",
+      image: "https://via.placeholder.com/80",
+      price: 33.00,
+      discountPrice: 25.00,
+      discount: "-24%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Cuentas espaciadoras de adhesivo",
+      description: "Agrega a adhesivos estructurales e instantáneos para evitar que se derramen durante el prensado",
+      image: "https://via.placeholder.com/80",
+      price: 12.00,
+      discountPrice: 9.00,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    
+    {
+      title: "Imprimadores de adhesivo",
+      description: "Prepara superficies antes de agregar adhesivos para mejorar la resistencia de la unión",
+      image: "https://via.placeholder.com/80",
+      price: 22.00,
+      discountPrice: 16.50,
+      discount: "-25%",
+      priceOption1: 31.88,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Aceleradores de adhesivo",
+      description: "Acelera el tiempo que tarda el adhesivo en alcanzar su máxima resistencia",
+      image: "https://via.placeholder.com/80",
+      price: 19.00,
+      discountPrice: 14.50,
+      discount: "-24%",
+      priceOption1: 31.88,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Fluido antideslizante",
+      description: "Aplicar en las cabezas de los sujetadores para evitar que destornilladores, llaves y alicates se deslicen",
+      image: "https://via.placeholder.com/80",
+      price: 15.00,
+      discountPrice: 11.00,
+      discount: "-27%",
+      priceOption1: 31.88,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Cinta",
+      description: "Une, sella y marca superficies",
+      image: "https://via.placeholder.com/80",
+      price: 10.00,
+      discountPrice: 7.50,
+      discount: "-25%",
+      priceOption1: 31.88,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    }
     
     
   ];
   try {
-    for (const producto of productsferre) {
-      await ProductoFerreteria.create(producto); // Inserta cada producto en la base de datos
-    }
+
     for (const product of productsferre) {
-      // Verificar si el producto ya existe
       const exists = await ProductoFerreteria.findOne({
         where: { title: product.title },
       });
@@ -1842,36 +1845,12 @@ async function ProductoInsertferre() {
     console.error("Error inserting products:", error);
   }
 }
-async function CategoryInsert() {
-  const categoria = [
-    { nombre: "Tornillos" },
-    { nombre: "Adhesivos" },
-    { nombre: "Tuverias" },
-    { nombre: "Soldaduras" },
-  ];
-  try {
-    for (const category of categoria) {
-      // Verificar si la categoría ya existe
-      const exists = await Categoria.findOne({
-        where: { nombre: category.nombre },
-      });
 
-      if (!exists) {
-        // Crear solo si no existe
-        await Categoria.create(category);
-      }
-    }
-    console.log("Categories inserted or already exist!");
-  } catch (error) {
-    console.error("Error inserting categories:", error);
-  }
-}
 
  
 ProductoInsertferre() 
 UsuarioInsert()
 CategoriaInsert()
-CategoryInsert()
 PagoInsert()
 PedidoInsert() 
 ProductoInsert() 

@@ -224,34 +224,78 @@ app.post("/contacto", (req, res) => {
   res.json({ message: "¡Nos contactaremos pronto con usted!" });
 });
 
-app.post("/pedido", async (req, res) => {
-  const { id, fecha, estado, total, formapago, productos } = req.body;
-  if (!id || !fecha || !estado || !total || !formapago) {
-    return res
-      .status(400)
-      .json({ error: "Todos los campos son obligatorios." });
-  }
-  const pago = await Pago.findOne({ where: { nombre: formapago } });
-  const nuevoPedido = await Pedido.create({
-    fecha,
-    estado,
-    pago: total,
-    usuarioId: id,
-    pagoId: pago.id,
-  });
 
-  for (const productoData of productos) {
-    const { id, cantidad, price } = productoData;
-    const producto = await Producto.findByPk(id);
-    await nuevoPedido.addProducto(producto, {
-      through: {
-        cantidad: cantidad,
-        precioU: price,
-      },
+app.post("/pedido", async (req, res) => {
+  try {
+    const { id, fecha, estado, total, formapago, productos } = req.body;
+
+    // Verificar si los datos esenciales están presentes
+    if (!id || !fecha || !estado || !total || !formapago || !productos || productos.length === 0) {
+      return res.status(400).json({ error: "Todos los campos son obligatorios." });
+    }
+
+    // Buscar el usuario y el pago por los IDs proporcionados
+    const usuario = await Usuario.findByPk(id);
+    const pago = await Pago.findOne({ where: { nombre: formapago } });
+
+    if (!usuario) {
+      return res.status(400).json({ error: "Usuario no encontrado" });
+    }
+    if (!pago) {
+      return res.status(400).json({ error: "Forma de pago no válida" });
+    }
+
+    // Crear un nuevo pedido
+    const nuevoPedido = await Pedido.create({
+      fecha,
+      estado,
+      pago: total,
+      usuarioId: id,
+      pagoId: pago.id,
     });
+
+    // Agregar productos al pedido
+    for (const productoData of productos) {
+      const { id, cantidad, price } = productoData;
+
+      // Verificar si el producto existe
+      const producto = await Producto.findByPk(id);
+      if (!producto) {
+        return res.status(400).json({ error: `Producto con ID ${id} no encontrado` });
+      }
+
+      // Agregar el producto al pedido
+      await nuevoPedido.addProducto(producto, {
+        through: {
+          cantidad: cantidad,
+          precioU: price,
+        },
+      });
+    }
+
+    // Si el pedido tiene productos de ferretería, agregarlos también
+    for (const productoData of productos) {
+      const { id, cantidad, price } = productoData;
+      const ProductoFerreteria = await ProductoFerreteria.findByPk(id);
+      if (ProductoFerreteria) {
+        await nuevoPedido.addProductoFerreteria(ProductoFerreteria, {
+          through: {
+            cantidad: cantidad,
+            precioU: price,
+          },
+        });
+      }
+    }
+
+    // Responder con el detalle del pedido
+    return res.json({ message: "¡Pedido realizado exitosamente!", pedido: nuevoPedido });
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ error: "Error al procesar el pedido." });
   }
-  res.json({ message: "¡Pedido Hecho!", pedido: nuevoPedido });
 });
+
+
 
 // GETS PARA TESTEO
 
@@ -294,6 +338,7 @@ app.get("/producto/:id", async (req, res) => {
   });
   res.status(200).json(producto);
 });
+
 
 //FETCH DE PRODUCTOS EN LA PÁGINA
 app.get("/products", async (req, res) => {
