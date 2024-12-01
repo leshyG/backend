@@ -504,6 +504,132 @@ async function ProductoInsert() {
         "https://production-tailoy-repo-magento-statics.s3.amazonaws.com/imagenes/240x300/productos/i/c/a/caja-optimus-3-alta-sbandeja-princesa-57937-default-1.jpg",
       categoriaId: 4,
     },
+    {
+      title: "Clear Weathertight Totes",
+      description: "Clear Weathertight Totes",
+      price: 14.99,
+      discountPrice: 11.99, // Calculando un 20% de descuento
+      discount: "-20%",
+      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/ecdf7130ef10013390340a3ba3fac80a.yottaa.net/v~4b.557/catalogimages/324233/CT_17_Weather-Tight-Boxes_R012717_12.jpg?width=312&height=312&yocs=9y_9z_9B_9C_",
+      categoriaId: 4,
+    },
+    {
+      title: "Clear Weathertight Totes Cases",
+      description: "Clear Weathertight Totes Cases",
+      price: 89.94,
+      discountPrice: 70.15, // Calculando un 22% de descuento
+      discount: "-22%",
+      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/ecdf7130ef10013390340a3ba3fac80a.yottaa.net/v~4b.557/catalogimages/331330/10060956_Weathertight-Totes%20(2).jpg?width=312&height=312&yocs=9y_9z_9B_9C_",
+      categoriaId: 4,
+    },
+    {
+      title: "20 gal. Clear Weathertight Trunk",
+      description: "20 gal. Clear Weathertight Trunk",
+      price: 59.99,
+      discountPrice: 51.99, // Calculando un 15% de descuento
+      discount: "-15%",
+      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/ecdf7130ef10013390340a3ba3fac80a.yottaa.net/v~4b.557/catalogimages/433357/10048966-weathertight-trunk-20gal.jpg?width=312&height=312&yocs=9y_9z_9B_9C_",
+      categoriaId: 4,
+    },
+    {
+      title: "like-it Stack-up Storage Containers",
+      description: "like-it Stack-up Storage Containers",
+      price: 14.99,
+      discountPrice: 14.54, // Calculando un 3% de descuento
+      discount: "-3%",
+      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/ecdf7130ef10013390340a3ba3fac80a.yottaa.net/v~4b.557/catalogimages/521500/JDM-23-like-it-boxes-shelving.jpg?width=312&height=312&yocs=9y_9z_9B_9C_",
+      categoriaId: 4,
+    },
+    {
+      title: "Clear Weathertight Totes",
+      description: "Clear Weathertight Totes",
+      price: 14.99,
+      discountPrice: 11.99, // Calculando un 20% de descuento
+      discount: "-20%",
+      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/ecdf7130ef10013390340a3ba3fac80a.yottaa.net/v~4b.557/catalogimages/324233/CT_17_Weather-Tight-Boxes_R012717_12.jpg?width=312&height=312&yocs=9y_9z_9B_9C_",
+      categoriaId: 4,
+    },
+    {
+      title: "Clear Weathertight Totes Cases",
+      description: "Clear Weathertight Totes Cases",
+      price: 89.94,
+      discountPrice: 70.15, // Calculando un 22% de descuento
+      discount: "-22%",
+      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/ecdf7130ef10013390340a3ba3fac80a.yottaa.net/v~4b.557/catalogimages/331330/10060956_Weathertight-Totes%20(2).jpg?width=312&height=312&yocs=9y_9z_9B_9C_",
+      categoriaId: 4,
+    },
+    {
+      title: "20 gal. Clear Weathertight Trunk",
+      description: "20 gal. Clear Weathertight Trunk",
+      price: 59.99,
+      discountPrice: 51.99, // Calculando un 15% de descuento
+      discount: "-15%",
+      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/ecdf7130ef10013390340a3ba3fac80a.yottaa.net/v~4b.557/catalogimages/433357/10048966-weathertight-trunk-20gal.jpg?width=312&height=312&yocs=9y_9z_9B_9C_",
+      categoriaId: 4,
+    },
+    {
+      title: "like-it Stack-up Storage Containers",
+      description: "like-it Stack-up Storage Containers",
+      price: 14.99,
+      discountPrice: 14.54, // Calculando un 3% de descuento
+      discount: "-3%",
+      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/ecdf7130ef10013390340a3ba3fac80a.yottaa.net/v~4b.557/catalogimages/521500/JDM-23-like-it-boxes-shelving.jpg?width=312&height=312&yocs=9y_9z_9B_9C_",
+      categoriaId: 4,
+    },
+    {
+      title: "Folding Dolly",
+      description: "Folding Dolly",
+      price: 59.99,
+      discountPrice: 52.19, // Calculando un 13% de descuento
+      discount: "-13%",
+      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/o~f_webp/v~4b.557.0.0/https://images.containerstore.com/catalogimages/160919/FoldingHandTruck10059592_x.jpg?width=312&height=312",
+      categoriaId: 4,
+    },
+    {
+      title: "Corrugated Moving Boxes",
+      description: "Corrugated Moving Boxes",
+      price: 1.49,
+      discountPrice: 0.92, // Calculando un 38% de descuento
+      discount: "-38%",
+      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/o~f_webp/v~4b.557.0.0/https://images.containerstore.com/catalogimages/171592/16-20WideCorrugatedBoxes_x.jpg?width=312&height=312",
+      categoriaId: 4,
+    },
+    {
+      title: "Our Best Box",
+      description: "Our Best Box",
+      price: 5.99,
+      discountPrice: 4.79, // Calculando un 20% de descuento
+      discount: "-20%",
+      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/o~f_webp/v~4b.557.0.0/https://images.containerstore.com/catalogimages/281381/SO_OurBestBox_1200x1200.jpg?width=312&height=312",
+      categoriaId: 4,
+    },
+    {
+      title: "103 qt. Weathertight Tote with Wheels",
+      description: "103 qt. Weathertight Tote with Wheels",
+      price: 49.99,
+      discountPrice: 41.99, // Calculando un 16% de descuento
+      discount: "-16%",
+      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/o~f_webp/v~4b.557.0.0/https://images.containerstore.com/catalogimages/283980/10067985_103qtWeathertightTote_x.jpg?width=312&height=312",
+      categoriaId: 4,
+    },
+    {
+      title: "Heavy-Duty Collapsible Crate",
+      description: "Heavy-Duty Collapsible Crate",
+      price: 24.99,
+      discountPrice: 21.24, // Calculando un 15% de descuento
+      discount: "-15%",
+      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/o~f_webp/v~4b.557.0.0/https://images.containerstore.com/catalogimages/292622/10069957LgHeavyDutyCollapsibleCrateB.jpg?width=312&height=312",
+      categoriaId: 4,
+    },
+    {
+      title: "Double-Tier Utility Boxes",
+      description: "Double-Tier Utility Boxes",
+      price: 39.99,
+      discountPrice: 34.39, // Calculando un 14% de descuento
+      discount: "-14%",
+      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/o~f_webp/v~4b.557.0.0/https://images.containerstore.com/catalogimages/294917/10070094gDoubleTierUtilityBox_1200.jpg?width=312&height=312",
+      categoriaId: 4,
+    },
   ];
   try {
     await Producto.bulkCreate(products);
