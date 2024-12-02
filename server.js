@@ -12,6 +12,12 @@ import { Producto } from './models/Producto.js';
 import { ProductoFerreteria} from './models/ProductoFerreteria.js';
 //import { Pedido_Producto } from "./models/Pedido.js";
 
+const corsOptions = {
+  origin: 'https://navigation-1cy1.onrender.com', // Reemplaza con tu URL frontend
+  methods: ['GET', 'POST', 'PUT', 'DELETE']
+};
+
+
 const app = express();
 const PORT = 8000;
 
@@ -27,7 +33,7 @@ async function verificarConexion() {
 
 
 // Middleware
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(express.json());
 app.get("/", (req, res) => {
   res.json("TODO BIEN");
