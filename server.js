@@ -87,7 +87,6 @@ app.post("/register", async (req, res) => {
       passwordHash: hash,
       username,
     });
-
     res
       .status(201)
       .json({
@@ -108,38 +107,21 @@ app.post("/register", async (req, res) => {
   }
 });
 
-//GET DE TODOS LOS USUARIOS (admin)
-app.get("/users", async (req, res) => {
-  const usuariosRegistrados = await Usuario.findAll({
-    where: { estado: true },
-  });
-  res.status(200).json(usuariosRegistrados);
-});
-
 //PÁGINA DE LOGIN
 app.post("/login", async (req, res) => {
   try {
     const { email, password } = req.body;
-
-    // Validar si ambos campos están presentes
     if (!email || !password) {
       return res.status(400).json({ error: "Rellene todos los campos" });
     }
-
-    // Buscar el usuario por email
     const usuario = await Usuario.findOne({ where: { email } });
-
-    // Validar si el usuario existe
     if (!usuario) {
       return res.status(404).json({ error: "Usuario no encontrado" });
     }
-
-    //Validar si el usuario está activado
     if (usuario.estado == false) {
       return res.status(404).json({ error: "¡Usuario desactivado!" });
     }
 
-    // Comparar la contraseña ingresada con el hash almacenado
     const isMatch = await bcrypt.compare(password, usuario.passwordHash);
     if (isMatch) {
       return res.json({
@@ -163,13 +145,11 @@ app.put("/changepass", async (req, res) => {
   if (!email || !currentPassword || !newPassword) {
     return res.status(400).json({ error: "Rellene todos los campos" });
   }
-
   try {
     const usuario = await Usuario.findOne({ where: { email } });
     if (!usuario) {
       return res.status(404).json({ error: "Usuario no encontrado" });
     }
-
     // VERIFICACION DE CONTRASEÑA ACTUAL
     const isMatch = await bcrypt.compare(currentPassword, usuario.passwordHash);
     if (!isMatch) {
@@ -177,7 +157,6 @@ app.put("/changepass", async (req, res) => {
         .status(400)
         .json({ error: "La contraseña actual es incorrecta" });
     }
-
     // VALIDACION MINIMALISTA
     if (newPassword.length < 8) {
       return res
@@ -186,28 +165,13 @@ app.put("/changepass", async (req, res) => {
           error: "La nueva contraseña debe tener al menos 8 caracteres",
         });
     }
-
     const hash = await bcrypt.hash(newPassword, 10);
-
     usuario.passwordHash = hash;
     await usuario.save();
-
     res.status(200).json({ message: "¡Contraseña actualizada!" });
   } catch (err) {
     res.status(400).json({ error: "Ocurrió un error" });
   }
-});
-
-// DELETE DE USUARIOS (admin)
-app.delete("/deleteuser", async (req, res) => {
-  const { email } = req.body;
-  const usuario = await Usuario.findOne({ where: { email } });
-  if (!usuario) {
-    return res.status(400).json({ error: "Confirme el usuario" });
-  }
-  usuario.estado = false;
-  await usuario.save();
-  res.json({ message: "Eliminado exitoso", usuario });
 });
 
 // PÁGINA DE CONTACTO
@@ -283,18 +247,7 @@ app.post("/pedido", async (req, res) => {
   }
 });
 
-
-// GETS PARA TESTEO
-
-app.get("/producto/:id", async (req, res) => {
-  const producto = await Producto.findByPk(req.params.id, {
-    include: {
-      model: Categoria,
-    },
-  });
-  res.status(200).json(producto);
-});
-
+//GET DE PEDIDOS EN EL PERFIL DEL USUARIO
 app.get("/perfil", async (req, res) => {
   const { id } = req.query 
   try {
@@ -356,8 +309,6 @@ app.get("/products", async (req, res) => {
   }
 });
 
-
-
 //FETCH DE FERRETERIA EN LA PÁGINA
 app.get("/Ferreteria", async (req, res) => {
   try {
@@ -379,7 +330,121 @@ app.get("/Ferreteria", async (req, res) => {
   }
 });
 
+// GETS PARA TESTEO
 
+app.get("/producto/:id", async (req, res) => {
+  const producto = await Producto.findByPk(req.params.id, {
+    include: {
+      model: Categoria,
+    },
+  });
+  res.status(200).json(producto);
+});
+
+//GET DE TODOS LOS USUARIOS (admin)
+app.get("/admin/users", async (req, res) => {
+  const usuariosRegistrados = await Usuario.findAll({
+    where: { estado: true },
+  });
+  res.status(200).json(usuariosRegistrados);
+});
+
+//CRUD DE ADMINISTRADOR PARA PRODUCTOS
+app.get("/admin/products", async (req, res) => {
+  const productos = await Producto.findAll();
+  res.status(200).json(productos);
+});
+
+app.post("/admin/products", async (req, res) => {
+  try {
+    const productoData = req.body; 
+    const nuevoProducto = await Producto.create(productoData);
+    res.status(201).json(nuevoProducto);
+  } catch (error) {
+    console.error("Error al crear producto:", error);
+    res.status(500).json({ error: "Error al crear el producto" });
+  }
+});
+
+app.put("/admin/products/:id", async (req, res) => {
+  const { id } = req.params; 
+  const { title, description, price, discountPrice, discount, image } = req.body;
+  try {
+    const producto = await Producto.findByPk(id);
+
+    if (!producto) {
+      return res.status(404).json({ error: "Producto no encontrado" });
+    }
+    await producto.update({
+      title,
+      description,
+      price,
+      discountPrice,
+      discount,
+      image,
+    });
+
+    res.status(200).json({ message: "Producto actualizado correctamente", producto });
+  } catch (error) {
+    console.error("Error al actualizar el producto:", error);
+    res.status(500).json({ error: "Error al actualizar el producto" });
+  }
+});
+
+app.delete("/admin/products/:id", async (req, res) => {
+  const { id } = req.params;
+  try {
+    const producto = await Producto.findByPk(id);
+    if (!producto) {
+      return res.status(404).json({ error: "Producto no encontrado" });
+    }
+    await producto.destroy();
+    res.status(200).json({ message: "Producto eliminado correctamente" });
+  } catch (error) {
+    console.error("Error al eliminar el producto:", error);
+    res.status(500).json({ error: "Error al eliminar el producto" });
+  }
+});
+
+// DELETE DE USUARIOS (admin)
+app.delete("/deleteuser", async (req, res) => {
+  const { email } = req.body;
+  const usuario = await Usuario.findOne({ where: { email } });
+  if (!usuario) {
+    return res.status(400).json({ error: "Confirme el usuario" });
+  }
+  usuario.estado = false;
+  await usuario.save();
+  res.json({ message: "Eliminado exitoso", usuario });
+});
+
+//LOGIN ADMIN
+app.post("/admin", async (req, res) => {
+  try {
+    const { username, password } = req.body;
+    if (!username || !password) {
+      return res.status(400).json({ error: "Rellene todos los campos" });
+    }
+    const usuario = await Usuario.findOne({ where: { username } });
+    if (username != "ADMIN") {
+      return res.status(404).json({ error: "USTED NO ES EL ADMIN" });
+    }
+    const isMatch = await bcrypt.compare(password, usuario.passwordHash);
+    if (isMatch) {
+      return res.json({
+        message: "ADMIN INICIADO",
+        id: usuario.id,
+        email: usuario.email,
+        username: usuario.username,
+      });
+    } else {
+      return res.status(400).json({ error: "Contraseña incorrecta" });
+    }
+  } catch (error) {
+    console.error("Error en /login:", error);
+    return res.status(500).json({ error: "Error interno del servidor" });
+  }
+});
 
 // Iniciar el servidor
 app.listen(PORT, () => {
