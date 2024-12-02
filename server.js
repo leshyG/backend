@@ -108,13 +108,7 @@ app.post("/register", async (req, res) => {
   }
 });
 
-//GET DE TODOS LOS USUARIOS (admin)
-app.get("/users", async (req, res) => {
-  const usuariosRegistrados = await Usuario.findAll({
-    where: { estado: true },
-  });
-  res.status(200).json(usuariosRegistrados);
-});
+
 
 //PÁGINA DE LOGIN
 app.post("/login", async (req, res) => {
@@ -198,18 +192,6 @@ app.put("/changepass", async (req, res) => {
   }
 });
 
-// DELETE DE USUARIOS (admin)
-app.delete("/deleteuser", async (req, res) => {
-  const { email } = req.body;
-  const usuario = await Usuario.findOne({ where: { email } });
-  if (!usuario) {
-    return res.status(400).json({ error: "Confirme el usuario" });
-  }
-  usuario.estado = false;
-  await usuario.save();
-  res.json({ message: "Eliminado exitoso", usuario });
-});
-
 // PÁGINA DE CONTACTO
 app.post("/contacto", (req, res) => {
   const { nombre, correo, mensaje } = req.body;
@@ -251,17 +233,6 @@ app.post("/pedido", async (req, res) => {
     });
   }
   res.json({ message: "¡Pedido Hecho!", pedido: nuevoPedido });
-});
-
-// GETS PARA TESTEO
-
-app.get("/producto/:id", async (req, res) => {
-  const producto = await Producto.findByPk(req.params.id, {
-    include: {
-      model: Categoria,
-    },
-  });
-  res.status(200).json(producto);
 });
 
 app.get("/perfil", async (req, res) => {
@@ -346,7 +317,137 @@ app.get("/Ferreteria", async (req, res) => {
   }
 });
 
+// GETS PARA TESTEO
 
+app.get("/producto/:id", async (req, res) => {
+  const producto = await Producto.findByPk(req.params.id, {
+    include: {
+      model: Categoria,
+    },
+  });
+  res.status(200).json(producto);
+});
+
+//GET DE TODOS LOS USUARIOS (admin)
+app.get("/admin/users", async (req, res) => {
+  const usuariosRegistrados = await Usuario.findAll({
+    where: { estado: true },
+  });
+  res.status(200).json(usuariosRegistrados);
+});
+
+//CRUD DE ADMINISTRADOR PARA PRODUCTOS
+app.get("/admin/products", async (req, res) => {
+  const productos = await Producto.findAll();
+  res.status(200).json(productos);
+});
+
+app.post("/admin/products", async (req, res) => {
+  try {
+    const productoData = req.body; 
+    const nuevoProducto = await Producto.create(productoData);
+    res.status(201).json(nuevoProducto);
+  } catch (error) {
+    console.error("Error al crear producto:", error);
+    res.status(500).json({ error: "Error al crear el producto" });
+  }
+});
+
+app.put("/admin/products/:id", async (req, res) => {
+  const { id } = req.params; // ID del producto a actualizar
+  const { title, description, price, discountPrice, discount, image } = req.body;
+
+  try {
+    // Buscar el producto por ID
+    const producto = await Producto.findByPk(id);
+
+    if (!producto) {
+      return res.status(404).json({ error: "Producto no encontrado" });
+    }
+
+    // Actualizar el producto con los datos enviados
+    await producto.update({
+      title,
+      description,
+      price,
+      discountPrice,
+      discount,
+      image,
+    });
+
+    res.status(200).json({ message: "Producto actualizado correctamente", producto });
+  } catch (error) {
+    console.error("Error al actualizar el producto:", error);
+    res.status(500).json({ error: "Error al actualizar el producto" });
+  }
+});
+
+app.delete("/admin/products/:id", async (req, res) => {
+  const { id } = req.params; // ID del producto a eliminar
+
+  try {
+    // Buscar el producto por ID
+    const producto = await Producto.findByPk(id);
+
+    if (!producto) {
+      return res.status(404).json({ error: "Producto no encontrado" });
+    }
+
+    // Eliminar el producto
+    await producto.destroy();
+
+    res.status(200).json({ message: "Producto eliminado correctamente" });
+  } catch (error) {
+    console.error("Error al eliminar el producto:", error);
+    res.status(500).json({ error: "Error al eliminar el producto" });
+  }
+});
+
+// DELETE DE USUARIOS (admin)
+app.delete("/deleteuser", async (req, res) => {
+  const { email } = req.body;
+  const usuario = await Usuario.findOne({ where: { email } });
+  if (!usuario) {
+    return res.status(400).json({ error: "Confirme el usuario" });
+  }
+  usuario.estado = false;
+  await usuario.save();
+  res.json({ message: "Eliminado exitoso", usuario });
+});
+
+//LOGIN ADMIN
+app.post("/admin", async (req, res) => {
+  try {
+    const { username, password } = req.body;
+
+    // Validar si ambos campos están presentes
+    if (!username || !password) {
+      return res.status(400).json({ error: "Rellene todos los campos" });
+    }
+
+    // Buscar el usuario por usuario
+    const usuario = await Usuario.findOne({ where: { username } });
+
+    // Validar si el usuario existe
+    if (username != "ADMIN") {
+      return res.status(404).json({ error: "USTED NO ES EL ADMIN" });
+    }
+    const isMatch = await bcrypt.compare(password, usuario.passwordHash);
+    if (isMatch) {
+      return res.json({
+        message: "ADMIN INICIADO",
+        id: usuario.id,
+        email: usuario.email,
+        username: usuario.username,
+      });
+    } else {
+      return res.status(400).json({ error: "Contraseña incorrecta" });
+    }
+  } catch (error) {
+    console.error("Error en /login:", error);
+    return res.status(500).json({ error: "Error interno del servidor" });
+  }
+});
 
 // Iniciar el servidor
 app.listen(PORT, () => {
