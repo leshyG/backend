@@ -258,21 +258,6 @@ app.post("/pedido", async (req, res) => {
   }
 });
 
-<<<<<<< HEAD
-=======
-
-// GETS PARA TESTEO
-
-app.get("/producto/:id", async (req, res) => {
-  const producto = await Producto.findByPk(req.params.id, {
-    include: {
-      model: Categoria,
-    },
-  });
-  res.status(200).json(producto);
-});
-
->>>>>>> e916b468e5868b1048bedf0004a2b8f2e531425f
 app.get("/perfil", async (req, res) => {
   const { id } = req.query 
   try {
