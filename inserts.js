@@ -2991,9 +2991,9 @@ async function ProductoInsertferre() {
 
  
 ProductoInsertferre() 
-UsuarioInsert()
+// UsuarioInsert()
 CategoriaInsert()
 PagoInsert()
-PedidoInsert() 
+// PedidoInsert() 
 ProductoInsert() 
 

@@ -3,7 +3,7 @@ import cors from 'cors';
 import bcrypt from 'bcryptjs';
 import fs from 'fs';
 import path from 'path';
-import { sequelize } from '../backend/db/db.js';
+import { sequelize } from './db/db.js';
 import { Usuario } from './models/Usuario.js';
 import { Pago } from './models/Pago.js';
 import { Categoria } from './models/Categoria.js';
