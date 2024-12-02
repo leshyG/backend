@@ -208,30 +208,37 @@ app.post("/pedido", async (req, res) => {
       pagoId: pago.id,
     });
 
-    const agregarProductos = async (productos, modelo, addProductoFunc) => {
-      if (productos && productos.length > 0) {
-        for (const productoData of productos) {
-          const { id, cantidad, price } = productoData;
-          const producto = await modelo.findByPk(id);
-    
-          if (producto) {
-            await nuevoPedido[addProductoFunc](producto, {
-              through: {
-                cantidad: cantidad,
-                precioU: price,
-              },
-            });
-          }
+    if (productos && productos.length > 0) {
+      for (const productoData of productos) {
+        const { id, cantidad, price } = productoData;
+        const producto = await Producto.findByPk(id);
+
+        if (producto) {
+          await nuevoPedido.addProducto(producto, {
+            through: {
+              cantidad: cantidad,
+              precioU: price,
+            },
+          });
         }
       }
-    };
-    
-    // Llamada para productos normales
-    await agregarProductos(productos, Producto, 'addProducto');
-    
-    // Llamada para productos de ferretería
-    await agregarProductos(productosFerreteria, ProductoFerreteria, 'addProductoFerreteria');
-    
+    }
+
+    if (productosFerreteria && productosFerreteria.length > 0) {
+      for (const productoData of productosFerreteria) {
+        const { id, cantidad, price } = productoData;
+        const productoFerreteria = await ProductoFerreteria.findByPk(id);
+
+        if (productoFerreteria) {
+          await nuevoPedido.addProductoFerreteria(productoFerreteria, {
+            through: {
+              cantidad: cantidad,
+              precioU: price,
+            },
+          });
+        }
+      }
+    }
 
     res.json({ message: "¡Pedido Hecho!", pedido: nuevoPedido });
   } catch (error) {
@@ -254,12 +261,7 @@ app.get("/perfil", async (req, res) => {
             attributes: ["cantidad", "precioU"], 
           },
         },
-        {
-          model: ProductoFerreteria, 
-          through: {
-            attributes: ["cantidad", "precioU"], 
-          },
-        },
+         
       ],
     });
     res.status(200).json(pedido);

@@ -42,10 +42,10 @@ export const Pedido_Producto = sequelize.define(
 
 export const Pedido_ProductoFerreteria = sequelize.define(
     "Pedido_ProductoFerreteria", {
-        cantidad: {
+        cantidadd: {
             type: DataTypes.INTEGER
         },
-        precioU: {
+        precioO: {
             type: DataTypes.FLOAT
         }
     }, {
