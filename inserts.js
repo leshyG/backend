@@ -2948,7 +2948,7 @@ async function ProductoInsertferre() {
       {
         title: "MIG Wire Lubricating Pads",
         description: "Lubricating pads designed to grease MIG wire for smoother feeding through your welder.",
-        image: "https://static.grainger.com/rp/s/is/image/Grainger/24A426_AS01?$adapimg$&hei=536&wid=536",
+        image: "https://img.freepik.com/foto-gratis/mig-wire-lubricating-pads_112554-478.jpg",
         price: 12.99,
         discountPrice: 11.49,
         discount: "-12%",
@@ -2969,7 +2969,6 @@ async function ProductoInsertferre() {
       const existingProduct = await ProductoFerreteria.findOne({
         where: { title: product.title },
       });
-  
       if (!existingProduct) {
         await ProductoFerreteria.create(product);
       } else {
