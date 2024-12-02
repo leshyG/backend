@@ -10,7 +10,7 @@ import { Categoria } from './models/Categoria.js';
 import { Pedido } from './models/Pedido.js';
 import { Producto } from './models/Producto.js';
 import { ProductoFerreteria} from './models/ProductoFerreteria.js';
-import { Pedido_Producto } from "./models/Pedido.js";
+//import { Pedido_Producto } from "./models/Pedido.js";
 
 const app = express();
 const PORT = 8000;
@@ -207,45 +207,89 @@ app.post("/contacto", (req, res) => {
 });
 
 app.post("/pedido", async (req, res) => {
-  const { id, fecha, estado, total, formapago, productos } = req.body;
+  const { id, fecha, estado, total, formapago,productos, productosFerreteria } = req.body;
+
   if (!id || !fecha || !estado || !total || !formapago) {
     return res
       .status(400)
       .json({ error: "Todos los campos son obligatorios." });
   }
-  const pago = await Pago.findOne({ where: { nombre: formapago } });
-  const nuevoPedido = await Pedido.create({
-    fecha,
-    estado,
-    pago: total,
-    usuarioId: id,
-    pagoId: pago.id,
-  });
 
-  for (const productoData of productos) {
-    const { id, cantidad, price } = productoData;
-    const producto = await Producto.findByPk(id);
-    await nuevoPedido.addProducto(producto, {
-      through: {
-        cantidad: cantidad,
-        precioU: price,
-      },
+  try {
+    const pago = await Pago.findOne({ where: { nombre: formapago } });
+
+    const nuevoPedido = await Pedido.create({
+      fecha,
+      estado,
+      pago: total,
+      usuarioId: id,
+      pagoId: pago.id,
     });
+
+    const agregarProductos = async (productos, modelo, addProductoFunc) => {
+      if (productos && productos.length > 0) {
+        for (const productoData of productos) {
+          const { id, cantidad, price } = productoData;
+          const producto = await modelo.findByPk(id);
+    
+          if (producto) {
+            await nuevoPedido[addProductoFunc](producto, {
+              through: {
+                cantidad: cantidad,
+                precioU: price,
+              },
+            });
+          }
+        }
+      }
+    };
+    
+    // Llamada para productos normales
+    await agregarProductos(productos, Producto, 'addProducto');
+    
+    // Llamada para productos de ferretería
+    await agregarProductos(productosFerreteria, ProductoFerreteria, 'addProductoFerreteria');
+    
+
+    res.json({ message: "¡Pedido Hecho!", pedido: nuevoPedido });
+  } catch (error) {
+    console.error("Error al crear el pedido:", error);
+    res.status(500).json({ error: "Error al crear el pedido." });
   }
-  res.json({ message: "¡Pedido Hecho!", pedido: nuevoPedido });
 });
 
+<<<<<<< HEAD
+=======
+
+// GETS PARA TESTEO
+
+app.get("/producto/:id", async (req, res) => {
+  const producto = await Producto.findByPk(req.params.id, {
+    include: {
+      model: Categoria,
+    },
+  });
+  res.status(200).json(producto);
+});
+
+>>>>>>> e916b468e5868b1048bedf0004a2b8f2e531425f
 app.get("/perfil", async (req, res) => {
-  const { id } = req.query // Recibe el ID desde los parámetros de consulta.
+  const { id } = req.query 
   try {
     const pedido = await Pedido.findAll({
       where: { usuarioId: id },
       attributes: ["id", "fecha", "estado", "pago"],
       include: [
         {
-          model: Producto,
+          model: Producto, 
           through: {
-            attributes: ["cantidad", "precioU"], // Atributos de la tabla intermedia.
+            attributes: ["cantidad", "precioU"], 
+          },
+        },
+        {
+          model: ProductoFerreteria, 
+          through: {
+            attributes: ["cantidad", "precioU"], 
           },
         },
       ],
@@ -267,6 +311,7 @@ app.get("/producto/:id", async (req, res) => {
 });
 
 //FETCH DE PRODUCTOS EN LA PÁGINA
+
 app.get("/products", async (req, res) => {
   try {
     const productos = await Producto.findAll({
