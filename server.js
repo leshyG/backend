@@ -87,7 +87,6 @@ app.post("/register", async (req, res) => {
       passwordHash: hash,
       username,
     });
-
     res
       .status(201)
       .json({
@@ -108,32 +107,21 @@ app.post("/register", async (req, res) => {
   }
 });
 
-
-
 //PÁGINA DE LOGIN
 app.post("/login", async (req, res) => {
   try {
     const { email, password } = req.body;
-
-    // Validar si ambos campos están presentes
     if (!email || !password) {
       return res.status(400).json({ error: "Rellene todos los campos" });
     }
-
-    // Buscar el usuario por email
     const usuario = await Usuario.findOne({ where: { email } });
-
-    // Validar si el usuario existe
     if (!usuario) {
       return res.status(404).json({ error: "Usuario no encontrado" });
     }
-
-    //Validar si el usuario está activado
     if (usuario.estado == false) {
       return res.status(404).json({ error: "¡Usuario desactivado!" });
     }
 
-    // Comparar la contraseña ingresada con el hash almacenado
     const isMatch = await bcrypt.compare(password, usuario.passwordHash);
     if (isMatch) {
       return res.json({
@@ -157,13 +145,11 @@ app.put("/changepass", async (req, res) => {
   if (!email || !currentPassword || !newPassword) {
     return res.status(400).json({ error: "Rellene todos los campos" });
   }
-
   try {
     const usuario = await Usuario.findOne({ where: { email } });
     if (!usuario) {
       return res.status(404).json({ error: "Usuario no encontrado" });
     }
-
     // VERIFICACION DE CONTRASEÑA ACTUAL
     const isMatch = await bcrypt.compare(currentPassword, usuario.passwordHash);
     if (!isMatch) {
@@ -171,7 +157,6 @@ app.put("/changepass", async (req, res) => {
         .status(400)
         .json({ error: "La contraseña actual es incorrecta" });
     }
-
     // VALIDACION MINIMALISTA
     if (newPassword.length < 8) {
       return res
@@ -180,12 +165,9 @@ app.put("/changepass", async (req, res) => {
           error: "La nueva contraseña debe tener al menos 8 caracteres",
         });
     }
-
     const hash = await bcrypt.hash(newPassword, 10);
-
     usuario.passwordHash = hash;
     await usuario.save();
-
     res.status(200).json({ message: "¡Contraseña actualizada!" });
   } catch (err) {
     res.status(400).json({ error: "Ocurrió un error" });
@@ -258,6 +240,7 @@ app.post("/pedido", async (req, res) => {
   }
 });
 
+//GET DE PEDIDOS EN EL PERFIL DEL USUARIO
 app.get("/perfil", async (req, res) => {
   const { id } = req.query 
   try {
@@ -324,8 +307,6 @@ app.get("/products", async (req, res) => {
   }
 });
 
-
-
 //FETCH DE FERRETERIA EN LA PÁGINA
 app.get("/Ferreteria", async (req, res) => {
   try {
@@ -384,18 +365,14 @@ app.post("/admin/products", async (req, res) => {
 });
 
 app.put("/admin/products/:id", async (req, res) => {
-  const { id } = req.params; // ID del producto a actualizar
+  const { id } = req.params; 
   const { title, description, price, discountPrice, discount, image } = req.body;
-
   try {
-    // Buscar el producto por ID
     const producto = await Producto.findByPk(id);
 
     if (!producto) {
       return res.status(404).json({ error: "Producto no encontrado" });
     }
-
-    // Actualizar el producto con los datos enviados
     await producto.update({
       title,
       description,
@@ -413,19 +390,13 @@ app.put("/admin/products/:id", async (req, res) => {
 });
 
 app.delete("/admin/products/:id", async (req, res) => {
-  const { id } = req.params; // ID del producto a eliminar
-
+  const { id } = req.params;
   try {
-    // Buscar el producto por ID
     const producto = await Producto.findByPk(id);
-
     if (!producto) {
       return res.status(404).json({ error: "Producto no encontrado" });
     }
-
-    // Eliminar el producto
     await producto.destroy();
-
     res.status(200).json({ message: "Producto eliminado correctamente" });
   } catch (error) {
     console.error("Error al eliminar el producto:", error);
@@ -449,16 +420,10 @@ app.delete("/deleteuser", async (req, res) => {
 app.post("/admin", async (req, res) => {
   try {
     const { username, password } = req.body;
-
-    // Validar si ambos campos están presentes
     if (!username || !password) {
       return res.status(400).json({ error: "Rellene todos los campos" });
     }
-
-    // Buscar el usuario por usuario
     const usuario = await Usuario.findOne({ where: { username } });
-
-    // Validar si el usuario existe
     if (username != "ADMIN") {
       return res.status(404).json({ error: "USTED NO ES EL ADMIN" });
     }
