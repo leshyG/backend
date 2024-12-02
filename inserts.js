@@ -504,132 +504,6 @@ async function ProductoInsert() {
         "https://production-tailoy-repo-magento-statics.s3.amazonaws.com/imagenes/240x300/productos/i/c/a/caja-optimus-3-alta-sbandeja-princesa-57937-default-1.jpg",
       categoriaId: 4,
     },
-    {
-      title: "Clear Weathertight Totes",
-      description: "Clear Weathertight Totes",
-      price: 14.99,
-      discountPrice: 11.99, // Calculando un 20% de descuento
-      discount: "-20%",
-      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/ecdf7130ef10013390340a3ba3fac80a.yottaa.net/v~4b.557/catalogimages/324233/CT_17_Weather-Tight-Boxes_R012717_12.jpg?width=312&height=312&yocs=9y_9z_9B_9C_",
-      categoriaId: 4,
-    },
-    {
-      title: "Clear Weathertight Totes Cases",
-      description: "Clear Weathertight Totes Cases",
-      price: 89.94,
-      discountPrice: 70.15, // Calculando un 22% de descuento
-      discount: "-22%",
-      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/ecdf7130ef10013390340a3ba3fac80a.yottaa.net/v~4b.557/catalogimages/331330/10060956_Weathertight-Totes%20(2).jpg?width=312&height=312&yocs=9y_9z_9B_9C_",
-      categoriaId: 4,
-    },
-    {
-      title: "20 gal. Clear Weathertight Trunk",
-      description: "20 gal. Clear Weathertight Trunk",
-      price: 59.99,
-      discountPrice: 51.99, // Calculando un 15% de descuento
-      discount: "-15%",
-      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/ecdf7130ef10013390340a3ba3fac80a.yottaa.net/v~4b.557/catalogimages/433357/10048966-weathertight-trunk-20gal.jpg?width=312&height=312&yocs=9y_9z_9B_9C_",
-      categoriaId: 4,
-    },
-    {
-      title: "like-it Stack-up Storage Containers",
-      description: "like-it Stack-up Storage Containers",
-      price: 14.99,
-      discountPrice: 14.54, // Calculando un 3% de descuento
-      discount: "-3%",
-      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/ecdf7130ef10013390340a3ba3fac80a.yottaa.net/v~4b.557/catalogimages/521500/JDM-23-like-it-boxes-shelving.jpg?width=312&height=312&yocs=9y_9z_9B_9C_",
-      categoriaId: 4,
-    },
-    {
-      title: "Clear Weathertight Totes",
-      description: "Clear Weathertight Totes",
-      price: 14.99,
-      discountPrice: 11.99, // Calculando un 20% de descuento
-      discount: "-20%",
-      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/ecdf7130ef10013390340a3ba3fac80a.yottaa.net/v~4b.557/catalogimages/324233/CT_17_Weather-Tight-Boxes_R012717_12.jpg?width=312&height=312&yocs=9y_9z_9B_9C_",
-      categoriaId: 4,
-    },
-    {
-      title: "Clear Weathertight Totes Cases",
-      description: "Clear Weathertight Totes Cases",
-      price: 89.94,
-      discountPrice: 70.15, // Calculando un 22% de descuento
-      discount: "-22%",
-      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/ecdf7130ef10013390340a3ba3fac80a.yottaa.net/v~4b.557/catalogimages/331330/10060956_Weathertight-Totes%20(2).jpg?width=312&height=312&yocs=9y_9z_9B_9C_",
-      categoriaId: 4,
-    },
-    {
-      title: "20 gal. Clear Weathertight Trunk",
-      description: "20 gal. Clear Weathertight Trunk",
-      price: 59.99,
-      discountPrice: 51.99, // Calculando un 15% de descuento
-      discount: "-15%",
-      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/ecdf7130ef10013390340a3ba3fac80a.yottaa.net/v~4b.557/catalogimages/433357/10048966-weathertight-trunk-20gal.jpg?width=312&height=312&yocs=9y_9z_9B_9C_",
-      categoriaId: 4,
-    },
-    {
-      title: "like-it Stack-up Storage Containers",
-      description: "like-it Stack-up Storage Containers",
-      price: 14.99,
-      discountPrice: 14.54, // Calculando un 3% de descuento
-      discount: "-3%",
-      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/ecdf7130ef10013390340a3ba3fac80a.yottaa.net/v~4b.557/catalogimages/521500/JDM-23-like-it-boxes-shelving.jpg?width=312&height=312&yocs=9y_9z_9B_9C_",
-      categoriaId: 4,
-    },
-    {
-      title: "Folding Dolly",
-      description: "Folding Dolly",
-      price: 59.99,
-      discountPrice: 52.19, // Calculando un 13% de descuento
-      discount: "-13%",
-      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/o~f_webp/v~4b.557.0.0/https://images.containerstore.com/catalogimages/160919/FoldingHandTruck10059592_x.jpg?width=312&height=312",
-      categoriaId: 4,
-    },
-    {
-      title: "Corrugated Moving Boxes",
-      description: "Corrugated Moving Boxes",
-      price: 1.49,
-      discountPrice: 0.92, // Calculando un 38% de descuento
-      discount: "-38%",
-      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/o~f_webp/v~4b.557.0.0/https://images.containerstore.com/catalogimages/171592/16-20WideCorrugatedBoxes_x.jpg?width=312&height=312",
-      categoriaId: 4,
-    },
-    {
-      title: "Our Best Box",
-      description: "Our Best Box",
-      price: 5.99,
-      discountPrice: 4.79, // Calculando un 20% de descuento
-      discount: "-20%",
-      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/o~f_webp/v~4b.557.0.0/https://images.containerstore.com/catalogimages/281381/SO_OurBestBox_1200x1200.jpg?width=312&height=312",
-      categoriaId: 4,
-    },
-    {
-      title: "103 qt. Weathertight Tote with Wheels",
-      description: "103 qt. Weathertight Tote with Wheels",
-      price: 49.99,
-      discountPrice: 41.99, // Calculando un 16% de descuento
-      discount: "-16%",
-      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/o~f_webp/v~4b.557.0.0/https://images.containerstore.com/catalogimages/283980/10067985_103qtWeathertightTote_x.jpg?width=312&height=312",
-      categoriaId: 4,
-    },
-    {
-      title: "Heavy-Duty Collapsible Crate",
-      description: "Heavy-Duty Collapsible Crate",
-      price: 24.99,
-      discountPrice: 21.24, // Calculando un 15% de descuento
-      discount: "-15%",
-      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/o~f_webp/v~4b.557.0.0/https://images.containerstore.com/catalogimages/292622/10069957LgHeavyDutyCollapsibleCrateB.jpg?width=312&height=312",
-      categoriaId: 4,
-    },
-    {
-      title: "Double-Tier Utility Boxes",
-      description: "Double-Tier Utility Boxes",
-      price: 39.99,
-      discountPrice: 34.39, // Calculando un 14% de descuento
-      discount: "-14%",
-      image: "https://cdn-fsly.yottaa.net/55df7e1a2bb0ac7d800040c2/o~f_webp/v~4b.557.0.0/https://images.containerstore.com/catalogimages/294917/10070094gDoubleTierUtilityBox_1200.jpg?width=312&height=312",
-      categoriaId: 4,
-    },
   ];
   try {
     await Producto.bulkCreate(products);
@@ -1065,939 +939,2060 @@ async function ProductoInsertferre() {
       title: "Tornillos de Cabeza Plana",
       description: "Se ajustan en agujeros avellanados para un acabado a ras",
       image: "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/4122917_01/w=1500,h=1500,fit=pad",
-      price: 22.75,  // Precio original
-      discountPrice: 18.00,  // Precio con descuento
-      discount: "-21%",  // Descuento
-      priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
+      price: 22.75,
+      discountPrice: 18.00,
+      discount: "-21%",
+      priceOption1: 24.25,
+      priceOption2: 25.50,
+      priceOption3: 26.75,
+      priceOption4: 28.00,
+      priceOption5: 29.25,
+      priceOption6: 30.50,
+      priceOption7: 31.75,
       categoriaId: 1
     },
-  
-      {
-        title: "Tornillos de Cabeza Redondeada",
-        description: "Se sitúan justo por encima de la superficie para un acabado de bajo perfil y sostienen más firmemente que los tornillos de cabeza plana",
-        image: "https://img.freepik.com/vector-premium/ilustracion-tornillo-metal-aislado-sobre-fondo-blanco-cabeza-redonda-tipos-tornillos-ranurados-cruzados-hexagonales-vista-superior_212889-4520.jpg",
-        price: 12.99,
-        discountPrice: 8.99,
-        discount: "-30%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Cabeza Hexagonal",
-        description: "Se utilizan con tuercas para crear una unión más fuerte que los tornillos de cabeza plana y redondeada",
-        image: "https://ferrecito.com/cdn/shop/files/TORM-1-4X1-1-2_1024x.jpg?v=1710432573",
-        price: 18.50,
-        discountPrice: 13.99,
-        discount: "-24%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Cabeza Plana",
-        description: "Se ajustan en agujeros avellanados para un acabado a ras",
-        image: "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/4122917_01/w=1500,h=1500,fit=pad",
-        price: 22.75,
-        discountPrice: 18.00,
-        discount: "-21%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos para Atornillar",
-        description: "Fijan una variedad de materiales juntos sin necesidad de roscar el agujero primero",
-        image: "https://via.placeholder.com/80",
-        price: 9.80,
-        discountPrice: 6.50,
-        discount: "-34%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Hombro",
-        description: "Hacen girar partes alrededor del cilindro bajo la cabeza para guiarlas y alinearlas durante la instalación",
-        image: "https://via.placeholder.com/80",
-        price: 15.00,
-        discountPrice: 10.50,
-        discount: "-30%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Ajuste",
-        description: "Ejercen presión en la punta para mantener las partes en su lugar, a diferencia de los tornillos que mantienen el material unido con hilos",
-        image: "https://via.placeholder.com/80",
-        price: 20.00,
-        discountPrice: 14.50,
-        discount: "-27%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos para Madera",
-        description: "Fijan material a la madera o piezas de madera entre sí",
-        image: "https://via.placeholder.com/80",
-        price: 7.50,
-        discountPrice: 5.25,
-        discount: "-30%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Manija",
-        description: "Se aprietan y aflojan a mano sin necesidad de herramientas",
-        image: "https://via.placeholder.com/80",
-        price: 11.20,
-        discountPrice: 8.50,
-        discount: "-24%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Carro",
-        description: "Una cabeza lisa proporciona un acabado terminado mientras que un cuello cuadrado mantiene el tornillo en su lugar al usar una tuerca",
-        image: "https://via.placeholder.com/80",
-        price: 14.50,
-        discountPrice: 10.00,
-        discount: "-31%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de 12 Puntos",
-        description: "12 puntos de contacto manejan más torsión que una cabeza hexagonal mientras que un flanco elimina la necesidad de una arandela",
-        image: "https://via.placeholder.com/80",
-        price: 18.80,
-        discountPrice: 13.50,
-        discount: "-28%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos para Paneles Captivos",
-        description: "Aseguran paneles y recintos mientras aún se tiene acceso a ellos",
-        image: "https://via.placeholder.com/80",
-        price: 13.99,
-        discountPrice: 9.99,
-        discount: "-29%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos para Drywall",
-        description: "Fijan paneles de drywall a materiales como madera, metal y drywall",
-        image: "https://via.placeholder.com/80",
-        price: 7.99,
-        discountPrice: 5.99,
-        discount: "-25%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Asortimientos de Sujetadores",
-        description: "Mantente preparado teniendo sujetadores en tamaños y materiales comunes a mano",
-        image: "https://via.placeholder.com/80",
-        price: 4.99,
-        discountPrice: 3.00,
-        discount: "-40%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Cabeza Cuadrada",
-        description: "Gira los lados planos grandes con una llave en agujeros cuadrados que impiden la rotación adicional",
-        image: "https://via.placeholder.com/80",
-        price: 10.99,
-        discountPrice: 7.99,
-        discount: "-27%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Pernos de Elevador",
-        description: "Crea una unión al ras para permitir movimiento en espacios reducidos como elevadores de granos y sistemas de correas",
-        image: "https://via.placeholder.com/80",
-        price: 25.00,
-        discountPrice: 18.00,
-        discount: "-28%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Pernos de Suspensión",
-        description: "Sostén tuberías y otros accesorios con alambres o abrazaderas de cable",
-        image: "https://via.placeholder.com/80",
-        price: 9.50,
-        discountPrice: 6.50,
-        discount: "-31%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Pernos en T",
-        description: "Gira a mano para un fácil ajuste, úsalo como asa o como punto de fijación para correas y abrazaderas",
-        image: "https://via.placeholder.com/80",
-        price: 15.50,
-        discountPrice: 11.50,
-        discount: "-26%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Pernos de Arado",
-        description: "La cabeza queda al ras con los orificios avellanados mientras el perno permanece en su lugar al apretar una tuerca",
-        image: "https://via.placeholder.com/80",
-        price: 8.20,
-        discountPrice: 6.20,
-        discount: "-24%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Pernos de Extremo",
-        description: "Diseñado para aplicaciones en las que una rosca o tuerca se usa en la misma dirección",
-        image: "https://via.placeholder.com/80",
-        price: 22.00,
-        discountPrice: 16.00,
-        discount: "-27%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Pernos de Sujeción",
-        description: "Sujeta el material debajo de la cabeza doblada mientras el otro extremo se aprieta con una tuerca",
-        image: "https://via.placeholder.com/80",
-        price: 20.50,
-        discountPrice: 14.50,
-        discount: "-29%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-  
-  
-      {
-        title: "Tornillos de Acero Inoxidable",
-        description: "Resistentes a la corrosión, ideales para aplicaciones al aire libre o en ambientes húmedos.",
-        image: "https://via.placeholder.com/80",
-        price: 12.00,
-        discountPrice: 9.00,
-        discount: "-25%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Cabeza Blanda",
-        description: "Perfectos para trabajos de bajo impacto y donde se requiere un agarre seguro.",
-        image: "https://via.placeholder.com/80",
-        price: 10.50,
-        discountPrice: 7.50,
-        discount: "-28%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos Antideslizantes",
-        description: "Tornillos diseñados para evitar el deslizamiento en superficies difíciles.",
-        image: "https://via.placeholder.com/80",
-        price: 18.00,
-        discountPrice: 14.00,
-        discount: "-22%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Ángulo Recto",
-        description: "Diseñados para ser insertados en ángulos rectos para aplicaciones estructurales y de construcción.",
-        image: "https://via.placeholder.com/80",
-        price: 11.99,
-        discountPrice: 9.00,
-        discount: "-25%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos para Techado",
-        description: "Ideales para asegurar materiales en techos y tejados, resistentes a las inclemencias del tiempo.",
-        image: "https://via.placeholder.com/80",
-        price: 13.50,
-        discountPrice: 10.00,
-        discount: "-26%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos Automáticos",
-        description: "Diseñados para ser colocados con facilidad mediante un dispositivo automático.",
-        image: "https://via.placeholder.com/80",
-        price: 9.00,
-        discountPrice: 6.50,
-        discount: "-28%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Precisión",
-        description: "Para aplicaciones donde se requiere un ajuste preciso y una alta resistencia.",
-        image: "https://via.placeholder.com/80",
-        price: 15.00,
-        discountPrice: 11.50,
-        discount: "-23%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Zócalo",
-        description: "Utilizados para sujetar las partes inferiores de las estructuras y otros componentes.",
-        image: "https://via.placeholder.com/80",
-        price: 17.00,
-        discountPrice: 13.50,
-        discount: "-21%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Cabeza Ajustable",
-        description: "Permiten el ajuste de la profundidad según la necesidad de la instalación.",
-        image: "https://via.placeholder.com/80",
-        price: 12.80,
-        discountPrice: 9.90,
-        discount: "-23%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-      {
-        title: "Tornillos de Vástago Largo",
-        description: "Diseñados para aplicaciones que requieren una longitud adicional para asegurar una mejor fijación.",
-        image: "https://via.placeholder.com/80",
-        price: 14.00,
-        discountPrice: 10.50,
-        discount: "-25%",
-        priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-        categoriaId: 1
-      },
-        {
-            title: "Adhesivos",
-            description: "Une superficies",
-            image: "https://via.placeholder.com/80",
-            price: 50.00,
-            discountPrice: 35.00,
-            discount: "-30%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Boquillas para pistolas dispensadoras de adhesivo",
-            description: "Usar con cartuchos en pistolas dispensadoras para controlar el flujo de adhesivo",
-            image: "https://via.placeholder.com/80",
-            price: 20.00,
-            discountPrice: 15.00,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Pistolas dispensadoras de adhesivo",
-            description: "Aplica cordones de adhesivo desde un cartucho a superficies",
-            image: "https://via.placeholder.com/80",
-            price: 75.00,
-            discountPrice: 60.00,
-            discount: "-20%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Émbolos para cartuchos de pistolas dispensadoras de adhesivo",
-            description: "Usar con jeringas o cartuchos de pistolas dispensadoras para empujar el adhesivo hacia afuera",
-            image: "https://via.placeholder.com/80",
-            price: 15.00,
-            discountPrice: 10.00,
-            discount: "-33%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Portacartuchos para pistolas dispensadoras de adhesivo",
-            description: "Mantiene los cartuchos de adhesivo en su lugar de forma segura",
-            image: "https://via.placeholder.com/80",
-            price: 25.00,
-            discountPrice: 18.00,
-            discount: "-28%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Cartuchos para pistolas dispensadoras de adhesivo",
-            description: "Llenar y luego montar en pistolas dispensadoras para aplicar adhesivos a superficies",
-            image: "https://via.placeholder.com/80",
-            price: 18.00,
-            discountPrice: 12.50,
-            discount: "-31%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Convertidores para pistolas de pegamento",
-            description: "Agregar a pistolas de pegamento para usar barras de pegamento de 8\" de largo",
-            image: "https://via.placeholder.com/80",
-            price: 10.00,
-            discountPrice: 7.50,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Pistolas de pegamento",
-            description: "Derrite y dispensa pegamento termofusible",
-            image: "https://via.placeholder.com/80",
-            price: 60.00,
-            discountPrice: 45.00,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Boquillas para pistolas de pegamento",
-            description: "Acopla a pistolas de pegamento para controlar el flujo de pegamento",
-            image: "https://via.placeholder.com/80",
-            price: 12.00,
-            discountPrice: 9.00,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Dispensadores de tubos",
-            description: "Exprime todo el contenido de los tubos",
-            image: "https://via.placeholder.com/80",
-            price: 22.00,
-            discountPrice: 17.50,
-            discount: "-20%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Tapas selladoras para cartuchos",
-            description: "Colocar sobre las puntas de cartuchos de adhesivo y sellador para evitar que se endurezcan",
-            image: "https://via.placeholder.com/80",
-            price: 8.00,
-            discountPrice: 6.00,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Dispensadores de bloqueadores de roscas y compuestos de retención",
-            description: "Atornillar en botellas de bloqueador de roscas o compuesto de retención para controlar el flujo y reducir desperdicio",
-            image: "https://via.placeholder.com/80",
-            price: 25.00,
-            discountPrice: 19.00,
-            discount: "-24%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Dispensadores de pegamento en rollo",
-            description: "Aprieta el gatillo para retirar el revestimiento y aplicar pegamento en rollo; también conocido como cinta adhesiva de transferencia",
-            image: "https://via.placeholder.com/80",
-            price: 30.00,
-            discountPrice: 22.50,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Brochas para adhesivo",
-            description: "Esparce adhesivos en partes y otras superficies",
-            image: "https://via.placeholder.com/80",
-            price: 12.00,
-            discountPrice: 9.50,
-            discount: "-21%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Rodillos de laminado",
-            description: "Comprime láminas laminadas, extiende adhesivos y expulsa burbujas de aire para formar uniones fuertes",
-            image: "https://via.placeholder.com/80",
-            price: 45.00,
-            discountPrice: 35.00,
-            discount: "-22%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Ollas de pegamento",
-            description: "Almacena adhesivos, cementos y lacas para evitar que se endurezcan",
-            image: "https://via.placeholder.com/80",
-            price: 40.00,
-            discountPrice: 30.00,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Bloqueadores de roscas",
-            description: "Cubre las roscas en los sujetadores roscados para evitar que se aflojen debido a impactos y vibraciones",
-            image: "https://via.placeholder.com/80",
-            price: 18.00,
-            discountPrice: 13.50,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Activadores de adhesivo",
-            description: "Agrega a adhesivos estructurales acrílicos sin mezcla para crear uniones fuertes",
-            image: "https://via.placeholder.com/80",
-            price: 28.00,
-            discountPrice: 21.00,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Compuestos de retención",
-            description: "Llena huecos para unir ejes, rodamientos, poleas, engranajes y otras partes metálicas cilíndricas",
-            image: "https://via.placeholder.com/80",
-            price: 33.00,
-            discountPrice: 25.00,
-            discount: "-24%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Cuentas espaciadoras de adhesivo",
-            description: "Agrega a adhesivos estructurales e instantáneos para evitar que se derramen durante el prensado",
-            image: "https://via.placeholder.com/80",
-            price: 12.00,
-            discountPrice: 9.00,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Imprimadores de adhesivo",
-            description: "Prepara superficies antes de agregar adhesivos para mejorar la resistencia de la unión",
-            image: "https://via.placeholder.com/80",
-            price: 22.00,
-            discountPrice: 16.50,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Aceleradores de adhesivo",
-            description: "Acelera el tiempo que tarda el adhesivo en alcanzar su máxima resistencia",
-            image: "https://via.placeholder.com/80",
-            price: 19.00,
-            discountPrice: 14.50,
-            discount: "-24%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Fluido antideslizante",
-            description: "Aplicar en las cabezas de los sujetadores para evitar que destornilladores, llaves y alicates se deslicen",
-            image: "https://via.placeholder.com/80",
-            price: 15.00,
-            discountPrice: 11.00,
-            discount: "-27%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        },
-        {
-            title: "Cinta",
-            description: "Une, sella y marca superficies",
-            image: "https://via.placeholder.com/80",
-            price: 10.00,
-            discountPrice: 7.50,
-            discount: "-25%",
-            priceOption1: 25.50,  // Precio opción 1
-      priceOption2: 30.00,  // Precio opción 2
-      priceOption3: 35.00,  // Precio opción 3
-      priceOption4: 40.00,  // Precio opción 4
-      priceOption5: 45.00,  // Precio opción 5
-      priceOption6: 50.00,  // Precio opción 6
-      priceOption7: 55.00,  // Precio opción 7
-            categoriaId: 2
-        }
+    {
+      title: "Tornillos Automáticos",
+      description: "Se ajustan al ingresar de manera automatica",
+      image: "https://m.media-amazon.com/images/I/71KCDg1xcdL._AC_UF894,1000_QL80_.jpg",
+      price: 15,
+      discountPrice: 7.5,
+      discount: "-50%",
+      priceOption1: 15.25,
+      priceOption2: 15.50,
+      priceOption3: 16.75,
+      priceOption4: 18.00,
+      priceOption5: 19.25,
+      priceOption6: 20.50,
+      priceOption7: 21.75,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Ángulo Recto",
+      description: "Tornillo adecuado para materiales de conexion",
+      image: "https://i5.walmartimages.com/asr/c7e928ac-5c5d-41c3-b511-0e18f591083d.374a029a17bc76bdd8a361ef7c3e6070.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      price: 17,
+      discountPrice: 13.6,
+      discount: "-20%",
+      priceOption1: 17.25,
+      priceOption2: 17.50,
+      priceOption3: 18.75,
+      priceOption4: 19.00,
+      priceOption5: 21.25,
+      priceOption6: 22.50,
+      priceOption7: 25.75,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos para Techado",
+      description: "Tornillo adecuado para techo",
+      image: "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/3491110_1/w=800,h=800,fit=pad",
+      price: 17,
+      discountPrice: 13.6,
+      discount: "-20%",
+      priceOption1: 17.25,
+      priceOption2: 17.50,
+      priceOption3: 18.75,
+      priceOption4: 19.00,
+      priceOption5: 21.25,
+      priceOption6: 22.50,
+      priceOption7: 25.75,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Cabeza Redondeada",
+      description: "Se sitúan justo por encima de la superficie para un acabado de bajo perfil y sostienen más firmemente que los tornillos de cabeza plana",
+      image: "https://img.freepik.com/vector-premium/ilustracion-tornillo-metal-aislado-sobre-fondo-blanco-cabeza-redonda-tipos-tornillos-ranurados-cruzados-hexagonales-vista-superior_212889-4520.jpg",
+      price: 12.99,
+      discountPrice: 8.99,
+      discount: "-30%",
+      priceOption1: 14.49,
+      priceOption2: 15.99,
+      priceOption3: 17.49,
+      priceOption4: 18.99,
+      priceOption5: 20.49,
+      priceOption6: 21.99,
+      priceOption7: 23.49,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Precisión",
+      description: "Se sitúan justo por encima de la superficie para un acabado de bajo perfil y sostienen más firmemente que los tornillos de cabeza plana",
+      image: "https://img.freepik.com/vector-premium/ilustracion-tornillo-metal-aislado-sobre-fondo-blanco-cabeza-redonda-tipos-tornillos-ranurados-cruzados-hexagonales-vista-superior_212889-4520.jpg",
+      price: 12.99,
+      discountPrice: 8.99,
+      discount: "-30%",
+      priceOption1: 14.49,
+      priceOption2: 15.99,
+      priceOption3: 17.49,
+      priceOption4: 18.99,
+      priceOption5: 20.49,
+      priceOption6: 21.99,
+      priceOption7: 23.49,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Cabeza Hexagonal",
+      description: "Se utilizan con tuercas para crear una unión más fuerte que los tornillos de cabeza plana y redondeada",
+      image: "https://ferrecito.com/cdn/shop/files/TORM-1-4X1-1-2_1024x.jpg?v=1710432573",
+      price: 18.50,
+      discountPrice: 13.99,
+      discount: "-24%",
+      priceOption1: 20.50,
+      priceOption2: 22.00,
+      priceOption3: 23.50,
+      priceOption4: 25.00,
+      priceOption5: 26.50,
+      priceOption6: 28.00,
+      priceOption7: 29.50,
+      categoriaId: 1
+    }
     
+    ,
+    {
+      title: "Tornillos para Atornillar",
+      description: "Fijan una variedad de materiales juntos sin necesidad de roscar el agujero primero",
+      image: "https://www.tornillolituo.com/wp-content/uploads/sites/15/2022/02/tipos-de-tornillo-drywall.jpg",
+      price: 9.80,
+      discountPrice: 6.50,
+      discount: "-34%",
+      priceOption1: 11.00,
+      priceOption2: 12.50,
+      priceOption3: 14.00,
+      priceOption4: 15.50,
+      priceOption5: 17.00,
+      priceOption6: 18.50,
+      priceOption7: 20.00,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Hombro",
+      description: "Hacen girar partes alrededor del cilindro bajo la cabeza para guiarlas y alinearlas durante la instalación",
+      image: "https://cdn.prod.website-files.com/64787072e6de8e8f7b19c16b/661960d1b4df199b827a4634_652f89144a5e90bea0a1f9c9_vis-epaulee-2.webp",
+      price: 15.00,
+      discountPrice: 10.50,
+      discount: "-30%",
+      priceOption1: 16.50,
+      priceOption2: 18.00,
+      priceOption3: 19.50,
+      priceOption4: 21.00,
+      priceOption5: 22.50,
+      priceOption6: 24.00,
+      priceOption7: 25.50,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Ajuste",
+      description: "Ejercen presión en la punta para mantener las partes en su lugar, a diferencia de los tornillos que mantienen el material unido con hilos",
+      image: "https://progen.vteximg.com.br/arquivos/ids/156024-500-500/FS-DJ160-1-05.jpg",
+      price: 20.00,
+      discountPrice: 14.50,
+      discount: "-27%",
+      priceOption1: 21.50,
+      priceOption2: 23.00,
+      priceOption3: 24.50,
+      priceOption4: 26.00,
+      priceOption5: 27.50,
+      priceOption6: 29.00,
+      priceOption7: 30.50,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos para Madera",
+      description: "Fijan material a la madera o piezas de madera entre sí",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReRBSf9_GWDJoCQBAQ93tMfDA4SyBhtf0NeA&s",
+      price: 7.50,
+      discountPrice: 5.25,
+      discount: "-30%",
+      priceOption1: 8.50,
+      priceOption2: 9.50,
+      priceOption3: 10.50,
+      priceOption4: 11.50,
+      priceOption5: 12.50,
+      priceOption6: 13.50,
+      priceOption7: 14.50,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Manija",
+      description: "Se aprietan y aflojan a mano sin necesidad de herramientas",
+      image: "https://s.alicdn.com/@sc04/kf/Hb7fed7aa9bde4b4098318f6d2ac1bf0cT.jpg",
+      price: 11.20,
+      discountPrice: 8.50,
+      discount: "-24%",
+      priceOption1: 12.50,
+      priceOption2: 13.50,
+      priceOption3: 14.50,
+      priceOption4: 15.50,
+      priceOption5: 16.50,
+      priceOption6: 17.50,
+      priceOption7: 18.50,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Carro",
+      description: "Una cabeza lisa proporciona un acabado terminado mientras que un cuello cuadrado mantiene el tornillo en su lugar al usar una tuerca",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQBsfu8gxBEu672d9bjDo1Yw4sZV1ByJRxHw&s",
+      price: 14.50,
+      discountPrice: 10.00,
+      discount: "-31%",
+      priceOption1: 16.00,
+      priceOption2: 17.50,
+      priceOption3: 19.00,
+      priceOption4: 20.50,
+      priceOption5: 22.00,
+      priceOption6: 23.50,
+      priceOption7: 25.00,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de 12 Puntos",
+      description: "12 puntos de contacto manejan más torsión que una cabeza hexagonal mientras que un flanco elimina la necesidad de una arandela",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqhB73TddOlVW7OeYrcAbJPsRhWIZ0Cvk3A&s",
+      price: 18.80,
+      discountPrice: 13.50,
+      discount: "-28%",
+      priceOption1: 20.00,
+      priceOption2: 21.50,
+      priceOption3: 23.00,
+      priceOption4: 24.50,
+      priceOption5: 26.00,
+      priceOption6: 27.50,
+      priceOption7: 29.00,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos para Paneles Captivos",
+      description: "Aseguran paneles y recintos mientras aún se tiene acceso a ellos",
+      image: "https://www.pencomsf.com/wp-content/uploads/2020/05/cv-thumbnail.jpg",
+      price: 13.99,
+      discountPrice: 9.99,
+      discount: "-29%",
+      priceOption1: 15.00,
+      priceOption2: 16.50,
+      priceOption3: 18.00,
+      priceOption4: 19.50,
+      priceOption5: 21.00,
+      priceOption6: 22.50,
+      priceOption7: 24.00,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos para Drywall",
+      description: "Fijan paneles de drywall a materiales como madera, metal y drywall",
+      image: "https://www.tecnodrywall.com.pe/cdn/shop/products/Tornillo-Drywall-7-x-7-16-Punta-Fina-Millar-TecnoDrywall-4723.png?v=1719517160",
+      price: 7.99,
+      discountPrice: 5.99,
+      discount: "-25%",
+      priceOption1: 9.00,
+      priceOption2: 10.00,
+      priceOption3: 11.00,
+      priceOption4: 12.00,
+      priceOption5: 13.00,
+      priceOption6: 14.00,
+      priceOption7: 15.00,
+      categoriaId: 1
+    }
+    ,{
+      title: "Asortimientos de Sujetadores",
+      description: "Mantente preparado teniendo sujetadores en tamaños y materiales comunes a mano",
+      image: "https://image.made-in-china.com/202f0j00EuhbSncjCBzT/Stainless-Steel-Bolts-in-Fasteners-bolts-nuts-screw-washers-.webp",
+      price: 4.99,
+      discountPrice: 3.00,
+      discount: "-40%",
+      priceOption1: 6.99,
+      priceOption2: 8.49,
+      priceOption3: 10.99,
+      priceOption4: 13.99,
+      priceOption5: 16.99,
+      priceOption6: 19.49,
+      priceOption7: 22.99,
+      categoriaId: 1
+    },
+      
+    {
+      title: "Tornillos de Cabeza Cuadrada",
+      description: "Gira los lados planos grandes con una llave en agujeros cuadrados que impiden la rotación adicional",
+      image: "https://www.torniper.com/img/productos/categoria-7/perno-cabeza-cuadrada__20121023163545__n.jpg",
+      price: 10.99,
+      discountPrice: 7.99,
+      discount: "-27%",
+      priceOption1: 12.99,
+      priceOption2: 14.49,
+      priceOption3: 16.49,
+      priceOption4: 18.99,
+      priceOption5: 21.49,
+      priceOption6: 23.99,
+      priceOption7: 25.99,
+      categoriaId: 1
+    },
+    {
+      title: "Pernos de Elevador",
+      description: "Crea una unión al ras para permitir movimiento en espacios reducidos como elevadores de granos y sistemas de correas",
+      image: "https://imrorwxhpooqjk5p.leadongcdn.com/cloud/joBplKlmjrSRjkjkjklmjo/4.jpg",
+      price: 25.00,
+      discountPrice: 18.00,
+      discount: "-28%",
+      priceOption1: 27.99,
+      priceOption2: 30.49,
+      priceOption3: 33.99,
+      priceOption4: 36.49,
+      priceOption5: 39.99,
+      priceOption6: 42.49,
+      priceOption7: 44.99,
+      categoriaId: 1
+    },
+    {
+      title: "Pernos de Suspensión",
+      description: "Sostén tuberías y otros accesorios con alambres o abrazaderas de cable",
+      image: "https://http2.mlstatic.com/D_NQ_NP_773307-CBT74221949016_012024-O.webp",
+      price: 9.50,
+      discountPrice: 6.50,
+      discount: "-31%",
+      priceOption1: 11.99,
+      priceOption2: 13.49,
+      priceOption3: 15.49,
+      priceOption4: 17.49,
+      priceOption5: 19.99,
+      priceOption6: 21.99,
+      priceOption7: 23.99,
+      categoriaId: 1
+    },
+    {
+      title: "Pernos en T",
+      description: "Gira a mano para un fácil ajuste, úsalo como asa o como punto de fijación para correas y abrazaderas",
+      image: "https://cdn.globalso.com/aozhanfasteners/38a0b92311.jpg",
+      price: 15.50,
+      discountPrice: 11.50,
+      discount: "-26%",
+      priceOption1: 17.99,
+      priceOption2: 20.49,
+      priceOption3: 22.99,
+      priceOption4: 25.49,
+      priceOption5: 27.99,
+      priceOption6: 30.49,
+      priceOption7: 32.99,
+      categoriaId: 1
+    },
+    {
+      title: "Pernos de Arado",
+      description: "La cabeza queda al ras con los orificios avellanados mientras el perno permanece en su lugar al apretar una tuerca",
+      image: "https://www.torniper.com/img/productos/categoria-7/perno-arado__20121023170245__n.jpg",
+      price: 8.20,
+      discountPrice: 6.20,
+      discount: "-24%",
+      priceOption1: 9.99,
+      priceOption2: 11.49,
+      priceOption3: 12.99,
+      priceOption4: 14.49,
+      priceOption5: 15.99,
+      priceOption6: 17.49,
+      priceOption7: 18.99,
+      categoriaId: 1
+    },
+    
+    {
+      title: "Pernos de Extremo",
+      description: "Diseñado para aplicaciones en las que una rosca o tuerca se usa en la misma dirección",
+      image: "https://imrorwxhpooqjk5p.leadongcdn.com/cloud/jmBplKlmjrSRjkklpnljjo/20220805_172714_065.jpg",
+      price: 22.00,
+      discountPrice: 16.00,
+      discount: "-27%",
+      priceOption1: 23.99,
+      priceOption2: 25.99,
+      priceOption3: 27.99,
+      priceOption4: 29.99,
+      priceOption5: 31.99,
+      priceOption6: 34.49,
+      priceOption7: 36.99,
+      categoriaId: 1
+    },
+    {
+      title: "Pernos de Sujeción",
+      description: "Sujeta el material debajo de la cabeza doblada mientras el otro extremo se aprieta con una tuerca",
+      image: "https://promart.vteximg.com.br/arquivos/ids/425868-1000-1000/16522.jpg?v=637231970958830000",
+      price: 20.50,
+      discountPrice: 14.50,
+      discount: "-29%",
+      priceOption1: 22.99,
+      priceOption2: 24.99,
+      priceOption3: 27.49,
+      priceOption4: 29.99,
+      priceOption5: 32.49,
+      priceOption6: 34.99,
+      priceOption7: 36.99,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Acero Inoxidable",
+      description: "Resistentes a la corrosión, ideales para aplicaciones al aire libre o en ambientes húmedos.",
+      image: "https://promart.vteximg.com.br/arquivos/ids/440432-1000-1000/16720.jpg?v=637248112633500000",
+      price: 12.00,
+      discountPrice: 9.00,
+      discount: "-25%",
+      priceOption1: 13.99,
+      priceOption2: 15.49,
+      priceOption3: 17.49,
+      priceOption4: 19.49,
+      priceOption5: 21.49,
+      priceOption6: 23.49,
+      priceOption7: 25.49,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Cabeza Blanda",
+      description: "Perfectos para trabajos de bajo impacto y donde se requiere un agarre seguro.",
+      image: "https://m.media-amazon.com/images/I/71hGDiNi-zL._AC_UF894,1000_QL80_.jpg",
+      price: 10.50,
+      discountPrice: 7.50,
+      discount: "-28%",
+      priceOption1: 11.99,
+      priceOption2: 13.49,
+      priceOption3: 14.99,
+      priceOption4: 16.49,
+      priceOption5: 18.49,
+      priceOption6: 20.49,
+      priceOption7: 22.49,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos Antideslizantes",
+      description: "Tornillos diseñados para evitar el deslizamiento en superficies difíciles.",
+      image: "https://i5.walmartimages.com/asr/745ebfd2-4eae-49a6-afd6-0cb02b08ea2b.caed75f8e00e065c8864f0a09553e405.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      price: 18.00,
+      discountPrice: 14.00,
+      discount: "-22%",
+      priceOption1: 19.99,
+      priceOption2: 21.49,
+      priceOption3: 23.49,
+      priceOption4: 25.49,
+      priceOption5: 27.49,
+      priceOption6: 29.49,
+      priceOption7: 31.49,
+      categoriaId: 1
+    },
+    
+    {
+      title: "Pernos de Extremo",
+      description: "Diseñado para aplicaciones en las que una rosca o tuerca se usa en la misma dirección",
+      image: "https://imrorwxhpooqjk5p.leadongcdn.com/cloud/jjBplKlmjrSRjkklpnpijq/20220805_172714_066.jpg",
+      price: 22.00,
+      discountPrice: 16.00,
+      discount: "-27%",
+      priceOption1: 23.99,
+      priceOption2: 25.99,
+      priceOption3: 27.99,
+      priceOption4: 29.99,
+      priceOption5: 31.99,
+      priceOption6: 34.49,
+      priceOption7: 36.99,
+      categoriaId: 1
+    },
+   
+    {
+      title: "Tornillos de Cabeza Blanda",
+      description: "Perfectos para trabajos de bajo impacto y donde se requiere un agarre seguro.",
+      image: "https://mediaserver.berner.eu/External/XL/10862[TIF]-100.jpg",
+      price: 10.50,
+      discountPrice: 7.50,
+      discount: "-28%",
+      priceOption1: 11.99,
+      priceOption2: 13.49,
+      priceOption3: 14.99,
+      priceOption4: 16.49,
+      priceOption5: 18.49,
+      priceOption6: 20.49,
+      priceOption7: 22.49,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos zAntideslizantes",
+      description: "Tornillos diseñados para evitar el deslizamiento en superficies difíciles.",
+      image: "https://http2.mlstatic.com/D_NQ_NP_928827-MLU71713627052_092023-O.webp",
+      price: 18.00,
+      discountPrice: 14.00,
+      discount: "-22%",
+      priceOption1: 19.99,
+      priceOption2: 21.49,
+      priceOption3: 23.49,
+      priceOption4: 25.49,
+      priceOption5: 27.49,
+      priceOption6: 29.49,
+      priceOption7: 31.49,
+      categoriaId: 1
+    },
+    
+    {
+      title: "Tornillos de Cabeza Ajustable",
+      description: "Permiten el ajuste de la profundidad según la necesidad de la instalación.",
+      image: "https://m.media-amazon.com/images/I/51sjlh+b3fL._AC_UF894,1000_QL80_.jpg",
+      price: 12.80,
+      discountPrice: 9.90,
+      discount: "-23%",
+      priceOption1: 15.50,
+      priceOption2: 16.50,
+      priceOption3: 17.50,
+      priceOption4: 18.50,
+      priceOption5: 19.50,
+      priceOption6: 20.00,
+      priceOption7: 21.00,
+      categoriaId: 1
+    },
+    {
+      title: "Tornillos de Vástago Largo",
+      description: "Diseñados para aplicaciones que requieren una longitud adicional para asegurar una mejor fijación.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMRTNurMXjxaiDBH5NFv5uGTm65s99vBefcw&s",
+      price: 14.00,
+      discountPrice: 10.50,
+      discount: "-25%",
+      priceOption1: 16.50,
+      priceOption2: 17.50,
+      priceOption3: 18.50,
+      priceOption4: 19.50,
+      priceOption5: 20.50,
+      priceOption6: 21.00,
+      priceOption7: 22.00,
+      categoriaId: 1
+    },
+    {
+      title: "Adhesivos",
+      description: "Une superficies",
+      image: "https://tacsa.com.ar/wp-content/uploads/2023/09/adh_pu_05.png",
+      price: 50.00,
+      discountPrice: 35.00,
+      discount: "-30%",
+      priceOption1: 31.50,
+      priceOption2: 35.00,
+      priceOption3: 37.50,
+      priceOption4: 40.00,
+      priceOption5: 42.00,
+      priceOption6: 45.00,
+      priceOption7: 46.50,
+      categoriaId: 2
+    },
+    {
+      title: "Boquillas para pistolas dispensadoras de adhesivo",
+      description: "Usar con cartuchos en pistolas dispensadoras para controlar el flujo de adhesivo",
+      image: "https://ferrincorp.com.pe/wp-content/uploads/2023/09/PISTOLA_10645_2.png",
+      price: 20.00,
+      discountPrice: 15.00,
+      discount: "-25%",
+      priceOption1: 25.50,
+      priceOption2: 26.00,
+      priceOption3: 28.00,
+      priceOption4: 30.00,
+      priceOption5: 32.00,
+      priceOption6: 33.00,
+      priceOption7: 34.00,
+      categoriaId: 2
+    },
+    {
+      title: "Pistolas dispensadoras de adhesivo",
+      description: "Aplica cordones de adhesivo desde un cartucho a superficies",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReNpf_zLV69N2tRvfD761CxLXQATuFLCExBA&s",
+      price: 75.00,
+      discountPrice: 60.00,
+      discount: "-20%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 40.00,
+      priceOption4: 42.00,
+      priceOption5: 45.00,
+      priceOption6: 47.50,
+      priceOption7: 50.00,
+      categoriaId: 2
+    },
+    {
+      title: "Émbolos para cartuchos de pistolas dispensadoras de adhesivo",
+      description: "Usar con jeringas o cartuchos de pistolas dispensadoras para empujar el adhesivo hacia afuera",
+      image: "https://ae01.alicdn.com/kf/S31ea655a83c14dd097513cdce96b510ek/Cartucho-vac-o-de-doble-barril-con-pistones-de-sellado-para-pistola-de-pegamento-AB-dispensador.png",
+      price: 15.00,
+      discountPrice: 10.00,
+      discount: "-33%",
+      priceOption1: 18.50,
+      priceOption2: 19.50,
+      priceOption3: 21.00,
+      priceOption4: 22.50,
+      priceOption5: 23.50,
+      priceOption6: 25.00,
+      priceOption7: 26.00,
+      categoriaId: 2
+    },
+    
+    {
+      title: "Portacartuchos para pistolas dispensadoras de adhesivo",
+      description: "Mantiene los cartuchos de adhesivo en su lugar de forma segura",
+      image: "https://ae01.alicdn.com/kf/S1568ff9dcd8a4f0d999b738c140ae68em.jpg_960x960.jpg",
+      price: 25.00,
+      discountPrice: 18.00,
+      discount: "-28%",
+      priceOption1: 31.50,
+      priceOption2: 32.50,
+      priceOption3: 34.50,
+      priceOption4: 36.50,
+      priceOption5: 38.00,
+      priceOption6: 39.50,
+      priceOption7: 41.00,
+      categoriaId: 2
+    },
+    {
+      title: "Cartuchos para pistolas dispensadoras de adhesivo",
+      description: "Llenar y luego montar en pistolas dispensadoras para aplicar adhesivos a superficies",
+      image: "https://ae01.alicdn.com/kf/S47cc611c8a204e79a017cdd288ad61faT/Cartuchos-adhesivos-vac-os-para-pistolas-de-pegamento-juego-de-tubos-de-resina-epoxi-1-1.png",
+      price: 18.00,
+      discountPrice: 12.50,
+      discount: "-31%",
+      priceOption1: 31.50,
+      priceOption2: 32.50,
+      priceOption3: 34.50,
+      priceOption4: 36.50,
+      priceOption5: 38.00,
+      priceOption6: 39.50,
+      priceOption7: 41.00,
+      categoriaId: 2
+    },
+    {
+      title: "Convertidores para pistolas de pegamento",
+      description: "Agregar a pistolas de pegamento para usar barras de pegamento de 8\" de largo",
+      image: "https://westor.pe/wp-content/uploads/2022/09/74-B620-220-1.jpg",
+      price: 10.00,
+      discountPrice: 7.50,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 32.50,
+      priceOption3: 34.50,
+      priceOption4: 36.50,
+      priceOption5: 38.00,
+      priceOption6: 39.50,
+      priceOption7: 41.00,
+      categoriaId: 2
+    },
+    {
+      title: "Pistolas de pegamento",
+      description: "Derrite y dispensa pegamento termofusible",
+      image: "https://westor.pe/wp-content/uploads/2022/09/74-B620-220-1.jpg",
+      price: 60.00,
+      discountPrice: 45.00,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 40.00,
+      priceOption4: 42.00,
+      priceOption5: 45.00,
+      priceOption6: 47.50,
+      priceOption7: 50.00,
+      categoriaId: 2
+    },
+    {
+      title: "Boquillas para pistolas de pegamento",
+      description: "Acopla a pistolas de pegamento para controlar el flujo de pegamento",
+      image: "https://ecobrisamanualidades.com/wp-content/uploads/2022/12/LA-PISTOLA-DE-SILICONA2-1024x760.jpg",
+      price: 12.00,
+      discountPrice: 9.00,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 32.50,
+      priceOption3: 34.50,
+      priceOption4: 36.50,
+      priceOption5: 38.00,
+      priceOption6: 39.50,
+      priceOption7: 41.00,
+      categoriaId: 2
+    },
+    {
+      title: "Dispensadores de tubos",
+      description: "Exprime todo el contenido de los tubos",
+      image: "https://labzumba.ec/wp-content/uploads/2021/03/C060548-1.jpg",
+      price: 22.00,
+      discountPrice: 17.50,
+      discount: "-20%",
+      priceOption1: 31.50,
+      priceOption2: 32.50,
+      priceOption3: 34.50,
+      priceOption4: 36.50,
+      priceOption5: 38.00,
+      priceOption6: 39.50,
+      priceOption7: 41.00,
+      categoriaId: 2
+    },
+    
+    {
+      title: "Tapas selladoras para cartuchos",
+      description: "Colocar sobre las puntas de cartuchos de adhesivo y sellador para evitar que se endurezcan",
+      image: "https://m.media-amazon.com/images/I/51I1uctUjFL._AC_UF894,1000_QL80_.jpg",
+      price: 8.00,
+      discountPrice: 6.00,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Dispensadores de bloqueadores de roscas y compuestos de retención",
+      description: "Atornillar en botellas de bloqueador de roscas o compuesto de retención para controlar el flujo y reducir desperdicio",
+      image: "https://s.alicdn.com/@sc04/kf/H5c48993377674633a3761d8b523fbe72B.jpg_720x720q50.jpg",
+      price: 25.00,
+      discountPrice: 19.00,
+      discount: "-24%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Dispensadores de pegamento en rollo",
+      description: "Aprieta el gatillo para retirar el revestimiento y aplicar pegamento en rollo; también conocido como cinta adhesiva de transferencia",
+      image: "https://s.alicdn.com/@sc04/kf/HTB110mqX2fsK1RjSszbq6AqBXXaO.jpg_720x720q50.jpg",
+      price: 30.00,
+      discountPrice: 22.50,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Brochas para adhesivo",
+      description: "Esparce adhesivos en partes y otras superficies",
+      image: "https://carpintec.com.pe/cdn/shop/files/Brocha_de_pintura_3_Truper_-_1_700x700.jpg?v=1711147251",
+      price: 12.00,
+      discountPrice: 9.50,
+      discount: "-21%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Rodillos de laminado",
+      description: "Comprime láminas laminadas, extiende adhesivos y expulsa burbujas de aire para formar uniones fuertes",
+      image: "https://img.interempresas.net/fotos/1738482.jpeg",
+      price: 45.00,
+      discountPrice: 35.00,
+      discount: "-22%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Ollas de pegamento",
+      description: "Almacena adhesivos, cementos y lacas para evitar que se endurezcan",
+      image: "https://www.oimsa.com/wp-content/uploads/2022/01/60036.jpg",
+      price: 40.00,
+      discountPrice: 30.00,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Bloqueadores de roscas",
+      description: "Cubre las roscas en los sujetadores roscados para evitar que se aflojen debido a impactos y vibraciones",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1rnm0BGkmjgcWFp2RPXc6jHdflLfSrdHPxA&s",
+      price: 18.00,
+      discountPrice: 13.50,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Activadores de adhesivo",
+      description: "Agrega a adhesivos estructurales acrílicos sin mezcla para crear uniones fuertes",
+      image: "https://http2.mlstatic.com/D_NQ_NP_991007-MPE73809320104_012024-O.webp",
+      price: 28.00,
+      discountPrice: 21.00,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Compuestos de retención",
+      description: "Llena huecos para unir ejes, rodamientos, poleas, engranajes y otras partes metálicas cilíndricas",
+      image: "https://m.media-amazon.com/images/I/61GmBpZlIQL.jpg",
+      price: 33.00,
+      discountPrice: 25.00,
+      discount: "-24%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Cuentas espaciadoras de adhesivo",
+      description: "Agrega a adhesivos estructurales e instantáneos para evitar que se derramen durante el prensado",
+      image: "https://i5.walmartimages.com/asr/0a9952eb-bce0-4aa6-b165-ed07666b4b5f.a1929d24ea373e15dcd2f4a1508cca6d.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      price: 12.00,
+      discountPrice: 9.00,
+      discount: "-25%",
+      priceOption1: 31.50,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    
+    {
+      title: "Imprimadores de adhesivo",
+      description: "Prepara superficies antes de agregar adhesivos para mejorar la resistencia de la unión",
+      image: "https://multimedia.3m.com/mws/media/2240069J/J.jpg?width=506",
+      price: 22.00,
+      discountPrice: 16.50,
+      discount: "-25%",
+      priceOption1: 31.88,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Aceleradores de adhesivo",
+      description: "Acelera el tiempo que tarda el adhesivo en alcanzar su máxima resistencia",
+      image: "https://maderasbarber.com/tonewood/20666-max_box/acelerador-para-cianocrilato.jpg",
+      price: 19.00,
+      discountPrice: 14.50,
+      discount: "-24%",
+      priceOption1: 31.88,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Fluido antideslizante",
+      description: "Aplicar en las cabezas de los sujetadores para evitar que destornilladores, llaves y alicates se deslicen",
+      image: "https://www.blatem.com/sites/default/files/2235.png",
+      price: 15.00,
+      discountPrice: 11.00,
+      discount: "-27%",
+      priceOption1: 31.88,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Cinta",
+      description: "Une, sella y marca superficies",
+      image: "https://res.cloudinary.com/riqra/image/upload/w_656,h_656,c_limit,q_auto,f_auto/v1705702430/utilex/products/c36c60a868a28635.jpg",
+      price: 10.00,
+      discountPrice: 7.50,
+      discount: "-25%",
+      priceOption1: 31.88,
+      priceOption2: 37.50,
+      priceOption3: 43.75,
+      priceOption4: 50.00,
+      priceOption5: 56.25,
+      priceOption6: 62.50,
+      priceOption7: 68.75,
+      categoriaId: 2
+    },
+    {
+      title: "Tubería PVC 1/2 pulgada",
+      description: "Tubería de PVC para uso doméstico, resistente y duradera",
+      image: "https://www.conecsa.com/portal/wp-content/uploads/2020/05/Captura_de_Pantalla_2020-07-04_a_la_s__17-removebg-preview.png",
+      price: 4.99,
+      discountPrice: 3.99,
+      discount: "-20%",
+      priceOption1: 5.49,
+      priceOption2: 5.99,
+      priceOption3: 6.49,
+      priceOption4: 6.99,
+      priceOption5: 7.49,
+      priceOption6: 7.99,
+      priceOption7: 8.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería Galvanizada 3/4 pulgada",
+      description: "Tubería galvanizada resistente a la corrosión para aplicaciones industriales",
+      image: "https://promart.vteximg.com.br/arquivos/ids/437897-1000-1000/30169.jpg?v=637245634112630000",
+      price: 9.99,
+      discountPrice: 7.49,
+      discount: "-25%",
+      priceOption1: 10.49,
+      priceOption2: 11.99,
+      priceOption3: 12.49,
+      priceOption4: 13.99,
+      priceOption5: 14.49,
+      priceOption6: 14.99,
+      priceOption7: 15.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería de Cobre 1 pulgada",
+      description: "Tubería de cobre para sistemas de agua potable y gas",
+      image: "https://m.media-amazon.com/images/I/31DAo3xohJL._AC_UF894,1000_QL80_.jpg",
+      price: 15.99,
+      discountPrice: 12.79,
+      discount: "-20%",
+      priceOption1: 16.49,
+      priceOption2: 17.49,
+      priceOption3: 18.49,
+      priceOption4: 19.49,
+      priceOption5: 20.49,
+      priceOption6: 21.49,
+      priceOption7: 22.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería PEX 1/2 pulgada",
+      description: "Tubería flexible para sistemas de agua caliente y fría",
+      image: "https://img.vevorstatic.com/us%2F300FTPEXG00000001V0%2Fgoods_img_big-v11%2Fpex-tubing-m100-1.2.jpg?timestamp=1631188628000&format=webp",
+      price: 3.99,
+      discountPrice: 2.99,
+      discount: "-25%",
+      priceOption1: 4.49,
+      priceOption2: 4.99,
+      priceOption3: 5.49,
+      priceOption4: 5.99,
+      priceOption5: 6.49,
+      priceOption6: 6.99,
+      priceOption7: 7.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería de Acero Inoxidable 2 pulgadas",
+      description: "Tubería de acero inoxidable ideal para sistemas de alta presión",
+      image: "https://http2.mlstatic.com/D_NQ_NP_799486-MLU69823944977_062023-O.webp",
+      price: 29.99,
+      discountPrice: 23.99,
+      discount: "-20%",
+      priceOption1: 30.49,
+      priceOption2: 31.99,
+      priceOption3: 32.49,
+      priceOption4: 33.99,
+      priceOption5: 34.49,
+      priceOption6: 34.99,
+      priceOption7: 35.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería PVC 2 pulgadas",
+      description: "Tubería de PVC ideal para drenajes y sistemas pluviales.",
+      image: "https://www.ferropolis.pe/cdn/shop/products/TUBO-PVC-DESAGUE-NICOLL-TLIVIANO-NICOLL_580x.png?v=1642801153",
+      price: 6.99,
+      discountPrice: 5.59,
+      discount: "-20%",
+      priceOption1: 7.49,
+      priceOption2: 7.99,
+      priceOption3: 8.49,
+      priceOption4: 8.99,
+      priceOption5: 9.49,
+      priceOption6: 9.99,
+      priceOption7: 10.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería Galvanizada 1 pulgada",
+      description: "Tubería galvanizada resistente a altas temperaturas.",
+      image: "https://ferconce.com/wp-content/uploads/2020/09/COD.-000150.jpg",
+      price: 12.49,
+      discountPrice: 9.99,
+      discount: "-20%",
+      priceOption1: 12.99,
+      priceOption2: 13.49,
+      priceOption3: 14.49,
+      priceOption4: 14.99,
+      priceOption5: 15.49,
+      priceOption6: 15.99,
+      priceOption7: 16.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería de Cobre 1/4 pulgada",
+      description: "Tubería de cobre ideal para sistemas de refrigeración.",
+      image: "https://coldimport.com.pe/wp-content/uploads/2024/07/tuberia-rigida-de-cobre.jpg",
+      price: 8.99,
+      discountPrice: 6.74,
+      discount: "-25%",
+      priceOption1: 9.49,
+      priceOption2: 9.99,
+      priceOption3: 10.49,
+      priceOption4: 10.99,
+      priceOption5: 11.49,
+      priceOption6: 11.99,
+      priceOption7: 12.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería de PEX 3/4 pulgada",
+      description: "Tubería flexible para instalaciones rápidas y eficientes.",
+      image: "https://s.alicdn.com/@sc04/kf/HTB1kAlxM7zoK1RjSZFlq6yi4VXa7.jpg",
+      price: 5.49,
+      discountPrice: 4.39,
+      discount: "-20%",
+      priceOption1: 5.99,
+      priceOption2: 6.49,
+      priceOption3: 6.99,
+      priceOption4: 7.49,
+      priceOption5: 7.99,
+      priceOption6: 8.49,
+      priceOption7: 8.99,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería de Acero Inoxidable 3 pulgadas",
+      description: "Tubería de alta resistencia para uso industrial.",
+      image: "https://grupo-myg.com/wp-content/uploads/2023/03/construccion-tubo-acero-inoxidable-3-4-pulgadas.webp",
+      price: 45.99,
+      discountPrice: 36.79,
+      discount: "-20%",
+      priceOption1: 46.49,
+      priceOption2: 46.99,
+      priceOption3: 47.49,
+      priceOption4: 47.99,
+      priceOption5: 48.49,
+      priceOption6: 48.99,
+      priceOption7: 49.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería PVC 4 pulgadas",
+      description: "Ideal para sistemas de alcantarillado y drenaje.",
+      image: "https://ferrebaratilloimage.s3.us-east-2.amazonaws.com/128816.png",
+      price: 12.99,
+      discountPrice: 10.39,
+      discount: "-20%",
+      priceOption1: 13.49,
+      priceOption2: 13.99,
+      priceOption3: 14.49,
+      priceOption4: 14.99,
+      priceOption5: 15.49,
+      priceOption6: 15.99,
+      priceOption7: 16.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería Galvanizada 2 pulgadas",
+      description: "Tubería para aplicaciones de alta presión y durabilidad.",
+      image: "https://www.fiorellarepre.com.pe/Imagen_Producto/805020.jpg",
+      price: 24.99,
+      discountPrice: 18.74,
+      discount: "-25%",
+      priceOption1: 25.49,
+      priceOption2: 25.99,
+      priceOption3: 26.49,
+      priceOption4: 26.99,
+      priceOption5: 27.49,
+      priceOption6: 27.99,
+      priceOption7: 28.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería de Cobre 1/2 pulgada",
+      description: "Excelente para sistemas de calefacción y agua caliente.",
+      image: "https://bedon.mx/wp-content/uploads/2024/01/NACOBRE-TLM-2-600x600.png",
+      price: 10.99,
+      discountPrice: 8.79,
+      discount: "-20%",
+      priceOption1: 11.49,
+      priceOption2: 11.99,
+      priceOption3: 12.49,
+      priceOption4: 12.99,
+      priceOption5: 13.49,
+      priceOption6: 13.99,
+      priceOption7: 14.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería PEX 1 pulgada",
+      description: "Tubería de PEX reforzada para uso en exteriores.",
+      image: "https://www.tubomart.com/wp-content/uploads/2023/04/PEX-Plumbing-Pipe_-Everything-You-Need-to-Know.jpeg",
+      price: 8.49,
+      discountPrice: 6.79,
+      discount: "-20%",
+      priceOption1: 8.99,
+      priceOption2: 9.49,
+      priceOption3: 9.99,
+      priceOption4: 10.49,
+      priceOption5: 10.99,
+      priceOption6: 11.49,
+      priceOption7: 11.99,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería de Acero Inoxidable 1.5 pulgadas",
+      description: "Resistente a la corrosión y de larga duración.",
+      image: "https://dipacmanta.com/wp-content/uploads/2021/12/products-acero-inoxidable-tubo-redondo-1200x675.jpg",
+      price: 19.99,
+      discountPrice: 15.99,
+      discount: "-20%",
+      priceOption1: 20.49,
+      priceOption2: 20.99,
+      priceOption3: 21.49,
+      priceOption4: 21.99,
+      priceOption5: 22.49,
+      priceOption6: 22.99,
+      priceOption7: 23.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería PVC 3 pulgadas",
+      description: "Tubería ligera y resistente para sistemas de riego.",
+      image: "https://m.media-amazon.com/images/I/518EvNASffL._AC_.jpg",
+      price: 9.99,
+      discountPrice: 7.49,
+      discount: "-25%",
+      priceOption1: 10.49,
+      priceOption2: 10.99,
+      priceOption3: 11.49,
+      priceOption4: 11.99,
+      priceOption5: 12.49,
+      priceOption6: 12.99,
+      priceOption7: 13.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería Galvanizada 3 pulgadas",
+      description: "Ideal para sistemas de alta presión.",
+      image: "https://m.media-amazon.com/images/I/518EvNASffL._AC_.jpg",
+      price: 29.99,
+      discountPrice: 22.49,
+      discount: "-25%",
+      priceOption1: 30.49,
+      priceOption2: 30.99,
+      priceOption3: 31.49,
+      priceOption4: 31.99,
+      priceOption5: 32.49,
+      priceOption6: 32.99,
+      priceOption7: 33.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería de Cobre 2 pulgadas",
+      description: "Material de alta durabilidad, ideal para sistemas industriales.",
+      image: "https://m.media-amazon.com/images/I/51FdOe8il+L._AC_UF894,1000_QL80_.jpg",
+      price: 19.99,
+      discountPrice: 15.99,
+      discount: "-20%",
+      priceOption1: 20.49,
+      priceOption2: 20.99,
+      priceOption3: 21.49,
+      priceOption4: 21.99,
+      priceOption5: 22.49,
+      priceOption6: 22.99,
+      priceOption7: 23.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería PEX 2 pulgadas",
+      description: "Flexible y fácil de instalar, resistente a altas presiones.",
+      image: "https://m.media-amazon.com/images/I/51L14e5EjSL._AC_SL1000_.jpg",
+      price: 12.99,
+      discountPrice: 10.39,
+      discount: "-20%",
+      priceOption1: 13.49,
+      priceOption2: 13.99,
+      priceOption3: 14.49,
+      priceOption4: 14.99,
+      priceOption5: 15.49,
+      priceOption6: 15.99,
+      priceOption7: 16.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería de Acero Inoxidable 4 pulgadas",
+      description: "Diseñada para proyectos industriales complejos.",
+      image: "https://es.china-stainless-steels.com/uploads/201920909/304-seamless-stainless-steel-pipes-size-3-401229789269.jpg",
+      price: 55.99,
+      discountPrice: 44.79,
+      discount: "-20%",
+      priceOption1: 56.49,
+      priceOption2: 56.99,
+      priceOption3: 57.49,
+      priceOption4: 57.99,
+      priceOption5: 58.49,
+      priceOption6: 58.99,
+      priceOption7: 59.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería PVC Reforzada 6 pulgadas",
+      description: "Resistente a químicos, ideal para aplicaciones industriales.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRugiOw8rRc05XOv-4UG6fUFWLnFweg3JEPpA&s",
+      price: 39.99,
+      discountPrice: 31.99,
+      discount: "-20%",
+      priceOption1: 40.49,
+      priceOption2: 40.99,
+      priceOption3: 41.49,
+      priceOption4: 41.99,
+      priceOption5: 42.49,
+      priceOption6: 42.99,
+      priceOption7: 43.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería Galvanizada Reforzada 5 pulgadas",
+      description: "Durabilidad superior para entornos industriales extremos.",
+      image: "https://icofesa.com/sistema/fotos/2producto15250.jpg",
+      price: 65.99,
+      discountPrice: 52.79,
+      discount: "-20%",
+      priceOption1: 66.49,
+      priceOption2: 66.99,
+      priceOption3: 67.49,
+      priceOption4: 67.99,
+      priceOption5: 68.49,
+      priceOption6: 68.99,
+      priceOption7: 69.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería PEX 1.5 pulgadas",
+      description: "Versátil y eficiente para sistemas hidráulicos.",
+      image: "https://i.ebayimg.com/thumbs/images/g/21YAAOSwMaVlSF~3/s-l1200.jpg",
+      price: 11.49,
+      discountPrice: 9.19,
+      discount: "-20%",
+      priceOption1: 11.99,
+      priceOption2: 12.49,
+      priceOption3: 12.99,
+      priceOption4: 13.49,
+      priceOption5: 13.99,
+      priceOption6: 14.49,
+      priceOption7: 14.99,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería de Cobre Flexible 1 pulgada",
+      description: "Flexible y ligera para instalaciones rápidas.",
+      image: "https://bedon.mx/wp-content/uploads/2024/01/NACOBRE-TLM-2-600x600.png",
+      price: 14.99,
+      discountPrice: 11.99,
+      discount: "-20%",
+      priceOption1: 15.49,
+      priceOption2: 15.99,
+      priceOption3: 16.49,
+      priceOption4: 16.99,
+      priceOption5: 17.49,
+      priceOption6: 17.99,
+      priceOption7: 18.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería de Acero Inoxidable Flexible 3 pulgadas",
+      description: "Alta resistencia y flexibilidad para condiciones extremas.",
+      image: "https://www.tecalemit.com/images/Productions/Tuyaux-caoutchouc-industriels/Flexibles-hydrauliques-onduleux-equipes.webp",
+      price: 75.99,
+      discountPrice: 60.79,
+      discount: "-20%",
+      priceOption1: 76.49,
+      priceOption2: 76.99,
+      priceOption3: 77.49,
+      priceOption4: 77.99,
+      priceOption5: 78.49,
+      priceOption6: 78.99,
+      priceOption7: 79.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería de Acero Galvanizado 1/2 pulgada",
+      description: "Tubería resistente a la corrosión, ideal para instalaciones de agua y gas.",
+      image: "https://image.made-in-china.com/202f0j00MYjkWAvJlHrp/1-2-Inch-1-Inch-2-Inch-3-Inch-Galvanized-Steel-Pipe-Price-20-Galvanized-Steel-Pipes.webp",
+      price: 39.99,
+      discountPrice: 32.99,
+      discount: "-17%",
+      priceOption1: 41.99,
+      priceOption2: 43.49,
+      priceOption3: 45.99,
+      priceOption4: 47.99,
+      priceOption5: 49.99,
+      priceOption6: 51.99,
+      priceOption7: 53.99,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería de PVC Corrugada 4 pulgadas",
+      description: "Flexible y ligera, adecuada para drenajes y sistemas de ventilación.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkwejnuBYS32ho36MKkhqb3y-IaslWLGHJFQ&s",
+      price: 28.99,
+      discountPrice: 23.99,
+      discount: "-17%",
+      priceOption1: 30.49,
+      priceOption2: 32.49,
+      priceOption3: 34.49,
+      priceOption4: 36.49,
+      priceOption5: 38.49,
+      priceOption6: 40.49,
+      priceOption7: 42.49,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería Multicapa 3/4 pulgada",
+      description: "Combinación de aluminio y plástico para alta durabilidad en sistemas de calefacción.",
+      image: "https://bedon.mx/wp-content/uploads/2024/02/RIIFO-TUBOPEALPE-0-600x600.png",
+      price: 49.99,
+      discountPrice: 44.99,
+      discount: "-10%",
+      priceOption1: 51.99,
+      priceOption2: 53.99,
+      priceOption3: 55.99,
+      priceOption4: 57.99,
+      priceOption5: 59.99,
+      priceOption6: 61.99,
+      priceOption7: 63.99,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería de Cobre Rígida 1 pulgada",
+      description: "Alta conductividad térmica, ideal para sistemas de refrigeración y gas.",
+      image: "https://silvertubos.com/wp-content/uploads/2019/11/tuberia-de-cobre-1-560x360.jpg",
+      price: 89.99,
+      discountPrice: 79.99,
+      discount: "-11%",
+      priceOption1: 91.99,
+      priceOption2: 93.99,
+      priceOption3: 95.99,
+      priceOption4: 97.99,
+      priceOption5: 99.99,
+      priceOption6: 101.99,
+      priceOption7: 103.99,
+      categoriaId: 3
+    },
+    {
+      title: "Tubería de Polietileno Alta Densidad 2 pulgadas",
+      description: "Ideal para redes de agua potable y sistemas de riego.",
+      image: "https://sistagua.com/wp-content/uploads/2020/02/Sistagua-tuberia-de-hdpe.png",
+      price: 25.99,
+      discountPrice: 21.99,
+      discount: "-15%",
+      priceOption1: 27.49,
+      priceOption2: 28.99,
+      priceOption3: 30.49,
+      priceOption4: 31.99,
+      priceOption5: 33.49,
+      priceOption6: 34.99,
+      priceOption7: 36.49,
+      categoriaId: 3
+    },
+      {
+        title: "TIG Welder Machine 200 Amp",
+        description: "Complete unit for TIG welding, perfect for metal fabrication.",
+        image: "https://m.media-amazon.com/images/I/719M-yO2QNL._AC_SL1500_.jpg",
+        price: 1200.00,
+        discountPrice: 999.00,
+        discount: "-17%",
+        priceOption1: 1240.00,
+        priceOption2: 1260.00,
+        priceOption3: 1280.00,
+        priceOption4: 1300.00,
+        priceOption5: 1350.00,
+        priceOption6: 1400.00,
+        priceOption7: 1450.00,
+        categoriaId: 4
+      },
+      {
+        title: "Tungsten Electrode Sharpener",
+        description: "Tool to sharpen tungsten electrodes for better welding precision.",
+        image: "https://m.media-amazon.com/images/I/71Jgu-M+l7L.jpg",
+        price: 150.00,
+        discountPrice: 135.00,
+        discount: "-10%",
+        priceOption1: 155.00,
+        priceOption2: 160.00,
+        priceOption3: 165.00,
+        priceOption4: 170.00,
+        priceOption5: 175.00,
+        priceOption6: 180.00,
+        priceOption7: 185.00,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Nozzles Pack",
+        description: "Pack of high-quality TIG torch nozzles for enhanced shielding gas control.",
+        image: "https://www.vector-welding.com/media/image/product/676/md/set-wig-set-14-teile.jpg",
+        price: 25.99,
+        discountPrice: 21.99,
+        discount: "-15%",
+        priceOption1: 27.99,
+        priceOption2: 28.99,
+        priceOption3: 30.99,
+        priceOption4: 32.99,
+        priceOption5: 34.99,
+        priceOption6: 36.99,
+        priceOption7: 38.99,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Welding Rod Feeder",
+        description: "Automatic rod feeder for smoother and more controlled TIG welding.",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxbzoKRIP71_-X6b7jH5jOWP4oYCTd2O5baw&s",
+        price: 350.00,
+        discountPrice: 310.00,
+        discount: "-11%",
+        priceOption1: 360.00,
+        priceOption2: 370.00,
+        priceOption3: 380.00,
+        priceOption4: 390.00,
+        priceOption5: 400.00,
+        priceOption6: 410.00,
+        priceOption7: 420.00,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Welding Rods (Pack of 10)",
+        description: "High-quality rods designed for TIG welding to provide strong and stable joints.",
+        image: "https://images-cdn.ubuy.co.in/634d17e7cf7f903f04466b81-weldingcity-1-lb-titanium-tig-welding.jpg",
+        price: 19.99,
+        discountPrice: 17.49,
+        discount: "-13%",
+        priceOption1: 21.99,
+        priceOption2: 22.99,
+        priceOption3: 23.99,
+        priceOption4: 24.99,
+        priceOption5: 25.99,
+        priceOption6: 26.99,
+        priceOption7: 28.99,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Gas Diffusers (Set of 5)",
+        description: "Set of 5 gas diffusers for better control and less shielding gas waste.",
+        image: "https://image.made-in-china.com/2f0j00jnWbUwMsSVkY/Consumable-Parts-EL52CT-Ms350-Gas-Diffuser-for-MIG-Welding-Torch.webp",
+        price: 18.99,
+        discountPrice: 16.99,
+        discount: "-11%",
+        priceOption1: 19.49,
+        priceOption2: 20.99,
+        priceOption3: 22.49,
+        priceOption4: 23.49,
+        priceOption5: 24.99,
+        priceOption6: 26.49,
+        priceOption7: 28.49,
+        categoriaId: 4
+      },
+      {
+        title: "Tungsten Electrode Grinder",
+        description: "Grinder for tungsten electrodes to ensure precise tip for consistent welds.",
+        image: "https://bakersgas.com/cdn/shop/products/Untitleddesign-2022-10-24T115159.639.png?v=1666626747",
+        price: 180.00,
+        discountPrice: 160.00,
+        discount: "-11%",
+        priceOption1: 185.00,
+        priceOption2: 190.00,
+        priceOption3: 195.00,
+        priceOption4: 200.00,
+        priceOption5: 210.00,
+        priceOption6: 215.00,
+        priceOption7: 220.00,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Accessory Kit",
+        description: "Complete kit with collets, collet bodies, and nozzles for TIG torches.",
+        image: "https://m.media-amazon.com/images/I/81xvsrvFHXL.jpg",
+        price: 35.00,
+        discountPrice: 30.00,
+        discount: "-14%",
+        priceOption1: 36.00,
+        priceOption2: 38.00,
+        priceOption3: 40.00,
+        priceOption4: 42.00,
+        priceOption5: 44.00,
+        priceOption6: 46.00,
+        priceOption7: 48.00,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Collets (Pack of 10)",
+        description: "Pack of 10 collets for TIG welding, offering excellent grip on tungsten electrodes.",
+        image: "https://mundakawg.com/cdn/shop/products/71OZR4yCfpL._SL1500_1024x1024.jpg?v=1571327269",
+        price: 12.99,
+        discountPrice: 11.49,
+        discount: "-11%",
+        priceOption1: 13.49,
+        priceOption2: 14.99,
+        priceOption3: 15.99,
+        priceOption4: 16.99,
+        priceOption5: 18.49,
+        priceOption6: 19.99,
+        priceOption7: 21.49,
+        categoriaId: 4
+      },
+      {
+        title: "Tungsten Electrodes (Pack of 5)",
+        description: "Tungsten electrodes for stable and clean TIG welds.",
+        image: "https://m.media-amazon.com/images/I/81NZV4iEFOL.jpg",
+        price: 15.99,
+        discountPrice: 14.49,
+        discount: "-9%",
+        priceOption1: 16.99,
+        priceOption2: 17.99,
+        priceOption3: 18.99,
+        priceOption4: 19.99,
+        priceOption5: 20.99,
+        priceOption6: 22.49,
+        priceOption7: 23.99,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Back Caps (Pack of 5)",
+        description: "Pack of 5 back caps for TIG torches to protect the electrode and enhance performance.",
+        image: "https://m.media-amazon.com/images/I/610SLM8-h4L._AC_UF1000,1000_QL80_.jpg",
+        price: 19.99,
+        discountPrice: 17.49,
+        discount: "-13%",
+        priceOption1: 20.99,
+        priceOption2: 21.99,
+        priceOption3: 22.99,
+        priceOption4: 23.99,
+        priceOption5: 24.99,
+        priceOption6: 25.99,
+        priceOption7: 26.99,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch-to-Machine Connectors",
+        description: "Connects TIG torches to welders, allowing for easy operation.",
+        image: "https://cdn11.bigcommerce.com/s-u3hf7jh4/images/stencil/1280x1280/products/731285/1099811/weldtec-cable-connector-ttc-150g__94018.1697043894.jpg?c=2",
+        price: 29.99,
+        discountPrice: 25.49,
+        discount: "-15%",
+        priceOption1: 31.49,
+        priceOption2: 33.99,
+        priceOption3: 35.99,
+        priceOption4: 37.99,
+        priceOption5: 39.99,
+        priceOption6: 41.99,
+        priceOption7: 43.99,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Bodies (Set of 3)",
+        description: "Set of 3 torch bodies for TIG welding, designed for durability and ease of use.",
+        image: "https://m.media-amazon.com/images/I/61Ee8iUjMZL.jpg",
+        price: 75.00,
+        discountPrice: 69.99,
+        discount: "-7%",
+        priceOption1: 76.99,
+        priceOption2: 78.99,
+        priceOption3: 80.99,
+        priceOption4: 82.99,
+        priceOption5: 85.00,
+        priceOption6: 88.00,
+        priceOption7: 90.00,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Insulators (Set of 5)",
+        description: "Set of 5 insulators to prevent gas leakage and protect torch components from heat.",
+        image: "https://mundakawg.com/cdn/shop/products/18CG-54N01-54N63-18CG20_1_1200x1200.jpg?v=1571327270",
+        price: 14.99,
+        discountPrice: 12.99,
+        discount: "-13%",
+        priceOption1: 15.49,
+        priceOption2: 16.49,
+        priceOption3: 17.49,
+        priceOption4: 18.49,
+        priceOption5: 19.49,
+        priceOption6: 20.99,
+        priceOption7: 22.49,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Collet Bodies (Pack of 5)",
+        description: "Pack of 5 collet bodies, designed to hold collets and ensure proper electrode fit.",
+        image: "https://ipotools.eu/wp-content/uploads/2020/02/WIG_Spannhuelsengehauuse-16-min.jpg",
+        price: 23.99,
+        discountPrice: 21.49,
+        discount: "-10%",
+        priceOption1: 24.99,
+        priceOption2: 26.99,
+        priceOption3: 28.99,
+        priceOption4: 29.99,
+        priceOption5: 31.99,
+        priceOption6: 32.99,
+        priceOption7: 34.99,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Heads (Set of 3)",
+        description: "Set of 3 torch heads designed for hard-to-reach welding areas, ensuring flexibility.",
+        image: "https://weld-ready.com/cdn/shop/products/CK-Worldwide-Flexloc-Water-Cooled-TIG-Torch-Swivel-Head-12-Foot-Cable-FL2312_1024x1024.jpg?v=1636220011",
+        price: 45.00,
+        discountPrice: 40.00,
+        discount: "-11%",
+        priceOption1: 46.00,
+        priceOption2: 48.00,
+        priceOption3: 50.00,
+        priceOption4: 52.00,
+        priceOption5: 55.00,
+        priceOption6: 57.00,
+        priceOption7: 60.00,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Power Cable Adapters",
+        description: "Adapter for connecting power cables to the argon hose for TIG welding.",
+        image: "https://store.cyberweld.com/cdn/shop/products/lincoln-tig-torch-power-adapter-k1622-4-1.jpg?v=1674221662",
+        price: 29.00,
+        discountPrice: 26.00,
+        discount: "-10%",
+        priceOption1: 30.00,
+        priceOption2: 32.00,
+        priceOption3: 34.00,
+        priceOption4: 36.00,
+        priceOption5: 38.00,
+        priceOption6: 40.00,
+        priceOption7: 42.00,
+        categoriaId: 4
+      },
+      {
+        title: "Tungsten Electrode Stick-Out Gauge",
+        description: "Tool to measure the stick-out distance of tungsten electrodes for consistent welds.",
+        image: "https://m.media-amazon.com/images/I/51eMjPtG8xL._AC_UF894,1000_QL80_.jpg",
+        price: 12.99,
+        discountPrice: 11.49,
+        discount: "-11%",
+        priceOption1: 13.49,
+        priceOption2: 14.49,
+        priceOption3: 15.49,
+        priceOption4: 16.49,
+        priceOption5: 17.49,
+        priceOption6: 18.49,
+        priceOption7: 19.49,
+        categoriaId: 4
+      },
+      {
+        title: "MIG Gun",
+        description: "High-performance MIG gun for quick and efficient welding in various applications.",
+        image: "https://cdn11.bigcommerce.com/s-t2kwtvqnd2/images/stencil/1280x1280/products/11925/33598/25-M-Style-MIG-Gun-for-Miller__96862.1732641038.jpg?c=1",
+        price: 119.99,
+        discountPrice: 109.99,
+        discount: "-8%",
+        priceOption1: 120.99,
+        priceOption2: 125.00,
+        priceOption3: 128.00,
+        priceOption4: 130.00,
+        priceOption5: 135.00,
+        priceOption6: 140.00,
+        priceOption7: 145.00,
+        categoriaId: 4
+      },
+      {
+        title: "MIG Welder 250 Amp",
+        description: "Complete MIG welder for heavy-duty welding tasks, ideal for construction and repairs.",
+        image: "https://m.media-amazon.com/images/I/71EymHWBJdL.jpg",
+        price: 1300.00,
+        discountPrice: 1200.00,
+        discount: "-7%",
+        priceOption1: 1350.00,
+        priceOption2: 1400.00,
+        priceOption3: 1450.00,
+        priceOption4: 1500.00,
+        priceOption5: 1550.00,
+        priceOption6: 1600.00,
+        priceOption7: 1650.00,
+        categoriaId: 4
+      },
+      {
+        title: "Tungsten Electrode Sharpeners",
+        description: "Sharpens tungsten electrodes to improve weld quality by creating a precise point at the tip.",
+        image: "https://i.ebayimg.com/images/g/zUoAAOSwz29kbd9W/s-l1200.jpg",
+        price: 149.99,
+        discountPrice: 139.99,
+        discount: "-7%",
+        priceOption1: 150.99,
+        priceOption2: 155.99,
+        priceOption3: 160.99,
+        priceOption4: 165.00,
+        priceOption5: 170.00,
+        priceOption6: 175.00,
+        priceOption7: 180.00,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Nozzles (Pack of 10)",
+        description: "Pack of 10 high-quality TIG torch nozzles designed for optimal shielding gas flow.",
+        image: "https://cdn11.bigcommerce.com/s-f4083/images/stencil/1280x1280/products/207340/414311/p14002_1__62732.1731966639.jpg?c=2",
+        price: 39.99,
+        discountPrice: 34.99,
+        discount: "-13%",
+        priceOption1: 40.99,
+        priceOption2: 42.99,
+        priceOption3: 45.00,
+        priceOption4: 47.99,
+        priceOption5: 50.00,
+        priceOption6: 52.00,
+        priceOption7: 55.00,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Welding Rod Feeders",
+        description: "Automatic feeder for TIG welding rods that ensures consistent rod feeding for clean welds.",
+        image: "https://ae01.alicdn.com/kf/Hbde2ee5b0fbc4c3fbdab288131333d61Q/TIG-Pen-Finger-Feeder-Welding-Rod-Holder-Filler-Wire-Pen-1-0-3-2mm-1-32.jpg",
+        price: 219.99,
+        discountPrice: 199.99,
+        discount: "-9%",
+        priceOption1: 220.00,
+        priceOption2: 225.00,
+        priceOption3: 230.00,
+        priceOption4: 240.00,
+        priceOption5: 250.00,
+        priceOption6: 260.00,
+        priceOption7: 270.00,
+        categoriaId: 4
+      },
+      {
+        title: "Tungsten Electrodes (Pack of 10)",
+        description: "Pack of 10 tungsten electrodes for high-precision TIG welding, ideal for stainless steel and aluminum.",
+        image: "https://advancedweldingsupplies.com/wp-content/uploads/2023/03/ceriated-tungsten-electrode.jpg",
+        price: 39.99,
+        discountPrice: 35.99,
+        discount: "-10%",
+        priceOption1: 40.99,
+        priceOption2: 42.99,
+        priceOption3: 45.99,
+        priceOption4: 47.99,
+        priceOption5: 50.99,
+        priceOption6: 55.00,
+        priceOption7: 58.00,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Accessory Kits",
+        description: "Complete accessory kit for TIG torches, including collets, nozzles, and more.",
+        image: "https://shop.weldmet.co.uk/cdn/shop/files/E7CB6709-F891-4009-BABA-CA0421E19C20_1024x.png?v=1720560068",
+        price: 89.99,
+        discountPrice: 79.99,
+        discount: "-11%",
+        priceOption1: 90.99,
+        priceOption2: 92.99,
+        priceOption3: 95.00,
+        priceOption4: 98.00,
+        priceOption5: 100.00,
+        priceOption6: 105.00,
+        priceOption7: 110.00,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Collets (Pack of 5)",
+        description: "Pack of 5 TIG torch collets for holding tungsten electrodes during welding.",
+        image: "https://i5.walmartimages.com/asr/af976932-2acf-4299-9745-341b8f57ce58_1.a0aca7544a90000c66a0c601fb3f2de9.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+        price: 24.99,
+        discountPrice: 22.99,
+        discount: "-8%",
+        priceOption1: 25.99,
+        priceOption2: 26.99,
+        priceOption3: 28.99,
+        priceOption4: 30.00,
+        priceOption5: 32.00,
+        priceOption6: 35.00,
+        priceOption7: 37.00,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Back Caps (Pack of 3)",
+        description: "Set of 3 back caps for TIG torches to ensure proper fitting and performance.",
+        image: "https://i5.walmartimages.com/asr/964c12fe-c18b-4990-ad86-42f6fd72d4c3.03a49986f253987d41bde8adee114f51.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+        price: 14.99,
+        discountPrice: 12.99,
+        discount: "-13%",
+        priceOption1: 15.49,
+        priceOption2: 16.99,
+        priceOption3: 17.99,
+        priceOption4: 19.99,
+        priceOption5: 20.99,
+        priceOption6: 22.00,
+        priceOption7: 23.00,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch-to-Machine Connectors (Set of 2)",
+        description: "Set of 2 connectors to link your TIG torches with welding machines, designed for reliable performance.",
+        image: "https://rukminim2.flixcart.com/image/750/900/l5bd5zk0/welding-machine/o/2/h/300-10-25-small-size-welding-cable-connector-set-of-4-pcs-with-1-original-imaggf29nu4whjvw.jpeg?q=20&crop=false",
+        price: 18.99,
+        discountPrice: 16.99,
+        discount: "-11%",
+        priceOption1: 19.49,
+        priceOption2: 20.99,
+        priceOption3: 21.99,
+        priceOption4: 22.99,
+        priceOption5: 24.00,
+        priceOption6: 25.00,
+        priceOption7: 26.00,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Bodies (Pack of 2)",
+        description: "Set of 2 TIG torch bodies to enhance flexibility and reduce weld defects.",
+        image: "https://media.machines4u.com.au/machinery/36/689836/Bossweld-Collet-Body-TIG-Gas-Lens-2-4mm-3-32-9-20-TIG-Torch-9545V44-Pack-of-2_52715454.l.jpg",
+        price: 79.99,
+        discountPrice: 74.99,
+        discount: "-6%",
+        priceOption1: 80.99,
+        priceOption2: 85.00,
+        priceOption3: 87.00,
+        priceOption4: 90.00,
+        priceOption5: 95.00,
+        priceOption6: 98.00,
+        priceOption7: 100.00,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Insulators (Set of 3)",
+        description: "Set of 3 insulators designed to protect your TIG torch and prevent gas leakage.",
+        image: "https://img-va.myshopline.com/image/store/2001017102/1653294593829/e3f10a524c9443e8b1a254a9af77bc69.jpeg?w=1459&h=1276",
+        price: 19.99,
+        discountPrice: 17.99,
+        discount: "-10%",
+        priceOption1: 20.99,
+        priceOption2: 22.00,
+        priceOption3: 23.00,
+        priceOption4: 24.00,
+        priceOption5: 25.00,
+        priceOption6: 26.00,
+        priceOption7: 28.00,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Collet Bodies (Pack of 5)",
+        description: "Pack of 5 collet bodies for TIG torches, designed for high-quality welds.",
+        image: "https://m.media-amazon.com/images/I/51hdDgnfuAL._AC_SL1000_.jpg",
+        price: 29.99,
+        discountPrice: 27.99,
+        discount: "-7%",
+        priceOption1: 30.99,
+        priceOption2: 32.99,
+        priceOption3: 35.00,
+        priceOption4: 37.00,
+        priceOption5: 40.00,
+        priceOption6: 42.00,
+        priceOption7: 45.00,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Heads (Set of 2)",
+        description: "Set of 2 TIG torch heads that provide greater flexibility for hard-to-reach areas.",
+        image: "https://m.media-amazon.com/images/I/51O+0BWFn2L._AC_UF1000,1000_QL80_.jpg",
+        price: 49.99,
+        discountPrice: 45.99,
+        discount: "-8%",
+        priceOption1: 50.99,
+        priceOption2: 53.00,
+        priceOption3: 55.00,
+        priceOption4: 57.00,
+        priceOption5: 60.00,
+        priceOption6: 65.00,
+        priceOption7: 70.00,
+        categoriaId: 4
+      },
+      {
+        title: "TIG Torch Power Cable Adapters",
+        description: "Adapters designed to link your TIG torch with power cables for efficient welding.",
+        image: "https://www.weldingcity.com/images/detailed/8/tig_welding_torch_dinse_50mm_adapter_separate_hose_for_9-17_torch_1-pk.jpg",
+        price: 39.99,
+        discountPrice: 35.99,
+        discount: "-10%",
+        priceOption1: 40.99,
+        priceOption2: 42.00,
+        priceOption3: 43.99,
+        priceOption4: 45.00,
+        priceOption5: 48.00,
+        priceOption6: 50.00,
+        priceOption7: 55.00,
+        categoriaId: 4
+      },
+      {
+        title: "Tungsten Electrode Stick-Out Gauges",
+        description: "Gauge to measure the stick-out of tungsten electrodes for consistent welding performance.",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6C_x_IPBdd-FDGhF0pZLgqw4JR6zNC2uC4A&s",
+        price: 14.99,
+        discountPrice: 12.99,
+        discount: "-13%",
+        priceOption1: 15.49,
+        priceOption2: 16.49,
+        priceOption3: 17.99,
+        priceOption4: 18.99,
+        priceOption5: 19.99,
+        priceOption6: 20.00,
+        priceOption7: 22.00,
+        categoriaId: 4
+      },
+      {
+        title: "MIG Guns",
+        description: "MIG Guns for controlling wire feed and shielding gas flow to produce high-quality welds.",
+        image: "https://s.turbifycdn.com/aah/weldingdirect/binzel-nu-tec-style-mig-guns-28.jpg",
+        price: 199.99,
+        discountPrice: 189.99,
+        discount: "-5%",
+        priceOption1: 200.00,
+        priceOption2: 210.00,
+        priceOption3: 220.00,
+        priceOption4: 230.00,
+        priceOption5: 240.00,
+        priceOption6: 250.00,
+        priceOption7: 260.00,
+        categoriaId: 4
+      },
+      {
+        title: "MIG Gun Contact Tips (Pack of 5)",
+        description: "Pack of 5 contact tips for MIG guns, ensuring reliable wire guidance and reduced spatter.",
+        image: "https://m.media-amazon.com/images/I/81e9EhEkGbL.jpg",
+        price: 19.99,
+        discountPrice: 17.99,
+        discount: "-10%",
+        priceOption1: 20.99,
+        priceOption2: 21.99,
+        priceOption3: 23.00,
+        priceOption4: 24.00,
+        priceOption5: 25.00,
+        priceOption6: 26.00,
+        priceOption7: 28.00,
+        categoriaId: 4
+      },
+      {
+        title: "MIG Gun Nozzles (Pack of 5)",
+        description: "Set of 5 MIG gun nozzles to direct shielding gas and protect contact tips.",
+        image: "https://m.media-amazon.com/images/I/617dT4GdBpL._AC_UF894,1000_QL80_.jpg",
+        price: 27.99,
+        discountPrice: 24.99,
+        discount: "-11%",
+        priceOption1: 28.99,
+        priceOption2: 30.00,
+        priceOption3: 32.00,
+        priceOption4: 34.00,
+        priceOption5: 35.00,
+        priceOption6: 37.00,
+        priceOption7: 40.00,
+        categoriaId: 4
+      },
+      {
+        title: "MIG Welding Wire (1lb)",
+        description: "1lb spool of high-quality MIG welding wire for steel, stainless steel, and aluminum.",
+        image: "https://mobileimages.lowes.com/productimages/00e21b47-0117-46e6-9893-75f1223461fc/00401267.jpg",
+        price: 16.99,
+        discountPrice: 14.99,
+        discount: "-12%",
+        priceOption1: 17.99,
+        priceOption2: 18.99,
+        priceOption3: 20.00,
+        priceOption4: 21.00,
+        priceOption5: 22.00,
+        priceOption6: 23.00,
+        priceOption7: 25.00,
+        categoriaId: 4
+      },
+      {
+        title: "MIG Wire Cleaning Pads",
+        description: "Cleaning pads designed to reduce weld spatter by removing rust and dirt from MIG wire.",
+        image: "https://www.airgas.com/medias/1200Wx1200H-007040.jpg?context=bWFzdGVyfHByb2R1Y3R8Mjg0MDgzfGltYWdlL2pwZWd8cHJvZHVjdC9oYjUvaGZjLzEyMTIyMzg5MDIwNzAyLmpwZ3wxYTYxYmVhOTk4NzdhNThjM2EzYTE4ZDA1MGU1YzgxM2FiZTk0NTBhM2UzMDJmNWI1OTg0MDEwNzI1YmUxN2E0",
+        price: 9.99,
+        discountPrice: 8.99,
+        discount: "-10%",
+        priceOption1: 10.99,
+        priceOption2: 11.99,
+        priceOption3: 12.99,
+        priceOption4: 13.00,
+        priceOption5: 14.00,
+        priceOption6: 15.00,
+        priceOption7: 16.00,
+        categoriaId: 4
+      },
+      {
+        title: "MIG Wire Lubricating Pads",
+        description: "Lubricating pads designed to grease MIG wire for smoother feeding through your welder.",
+        image: "https://static.grainger.com/rp/s/is/image/Grainger/24A426_AS01?$adapimg$&hei=536&wid=536",
+        price: 12.99,
+        discountPrice: 11.49,
+        discount: "-12%",
+        priceOption1: 13.99,
+        priceOption2: 14.99,
+        priceOption3: 15.99,
+        priceOption4: 16.00,
+        priceOption5: 17.00,
+        priceOption6: 18.00,
+        priceOption7: 20.00,
+        categoriaId: 4
+      }
     
     
   ];
   try {
-    for (const producto of productsferre) {
-      await ProductoFerreteria.create(producto); // Inserta cada producto en la base de datos
-    }
     for (const product of productsferre) {
-      // Verificar si el producto ya existe
-      const exists = await ProductoFerreteria.findOne({
+      const existingProduct = await ProductoFerreteria.findOne({
         where: { title: product.title },
       });
-
-      if (!exists) {
-        // Crear solo si no existe
+  
+      if (!existingProduct) {
         await ProductoFerreteria.create(product);
+      } else {
+        const hasChanges = Object.keys(product).some(
+          (key) => product[key] !== existingProduct[key]
+        );
+        if (hasChanges) {
+          await existingProduct.update(product);
+        }
       }
     }
-    console.log("Products inserted or already exist!");
+    console.log("Products inserted, updated, or already up-to-date!");
   } catch (error) {
-    console.error("Error inserting products:", error);
+    console.error("Error inserting or updating products:", error);
   }
+  
 }
-async function CategoryInsert() {
-  const categoria = [
-    { nombre: "Tornillos" },
-    { nombre: "Adhesivos" },
-    { nombre: "Tuverias" },
-    { nombre: "Soldaduras" },
-  ];
-  try {
-    for (const category of categoria) {
-      // Verificar si la categoría ya existe
-      const exists = await Categoria.findOne({
-        where: { nombre: category.nombre },
-      });
 
-      if (!exists) {
-        // Crear solo si no existe
-        await Categoria.create(category);
-      }
-    }
-    console.log("Categories inserted or already exist!");
-  } catch (error) {
-    console.error("Error inserting categories:", error);
-  }
-}
 
  
 ProductoInsertferre() 
 UsuarioInsert()
 CategoriaInsert()
-CategoryInsert()
 PagoInsert()
 PedidoInsert() 
 ProductoInsert() 

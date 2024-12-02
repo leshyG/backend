@@ -1,6 +1,6 @@
 import { DataTypes } from "sequelize";
 import { sequelize } from "../db/db.js";
-import { Pedido } from "./Pedido.js";
+
 
 export const ProductoFerreteria = sequelize.define(
     "ProductoFerreteria", {
@@ -19,34 +19,34 @@ export const ProductoFerreteria = sequelize.define(
         type: DataTypes.STRING
       },
       price: {
-        type: DataTypes.FLOAT // Precio original
+        type: DataTypes.FLOAT
       },
       discountPrice: {
-        type: DataTypes.FLOAT // Precio con descuento
+        type: DataTypes.FLOAT 
       },
       discount: {
-        type: DataTypes.STRING // Descuento (ej. -21%)
+        type: DataTypes.STRING 
       },
       priceOption1: {
-        type: DataTypes.FLOAT // Precio 1
+        type: DataTypes.FLOAT 
       },
       priceOption2: {
-        type: DataTypes.FLOAT // Precio 2
+        type: DataTypes.FLOAT 
       },
       priceOption3: {
-        type: DataTypes.FLOAT // Precio 3
+        type: DataTypes.FLOAT 
       },
       priceOption4: {
-        type: DataTypes.FLOAT // Precio 4
+        type: DataTypes.FLOAT 
       },
       priceOption5: {
-        type: DataTypes.FLOAT // Precio 5
+        type: DataTypes.FLOAT 
       },
       priceOption6: {
-        type: DataTypes.FLOAT // Precio 6
+        type: DataTypes.FLOAT 
       },
       priceOption7: {
-        type: DataTypes.FLOAT // Precio 7
+        type: DataTypes.FLOAT 
       },
       categoriaId: {
         type: DataTypes.INTEGER
@@ -57,25 +57,3 @@ export const ProductoFerreteria = sequelize.define(
     }
   );
   
-
-const Pedido_ProductoFerreteria = sequelize.define(
-    "Pedido_ProductoFerreteria", {
-        cantidad: {
-            type: DataTypes.INTEGER
-        },
-        precioU: {
-            type: DataTypes.FLOAT
-        }
-    }, {
-        freezeTableName: true,
-        timestamps: false
-    }
-);
-
-ProductoFerreteria.belongsToMany(Pedido, {
-    through: Pedido_ProductoFerreteria
-});
-
-Pedido.belongsToMany(ProductoFerreteria, {
-    through: Pedido_ProductoFerreteria
-});
