@@ -406,16 +406,31 @@ app.delete("/admin/products/:id", async (req, res) => {
   }
 });
 
-// DELETE DE USUARIOS (admin)
-app.delete("/deleteuser", async (req, res) => {
-  const { email } = req.body;
-  const usuario = await Usuario.findOne({ where: { email } });
-  if (!usuario) {
-    return res.status(400).json({ error: "Confirme el usuario" });
-  }
-  usuario.estado = false;
-  await usuario.save();
-  res.json({ message: "Eliminado exitoso", usuario });
+// CRUD DE ADMINISTRADOR PARA USUARIOS
+app.get("/admin/users", async (req, res) => {
+  const usuarios = await Usuario.findAll();
+  res.status(200).json(usuarios);
+});
+
+app.post("/admin/users", async (req, res) => {
+  const usuario = await Usuario.create(req.body);
+  res.status(201).json(usuario);
+});
+
+app.put("/admin/users/:id", async (req, res) => {
+  const { id } = req.params;
+  const usuario = await Usuario.findByPk(id);
+  if (!usuario) return res.status(404).json({ error: "Usuario no encontrado" });
+  await usuario.update(req.body);
+  res.status(200).json(usuario);
+});
+
+app.delete("/admin/users/:id", async (req, res) => {
+  const { id } = req.params;
+  const usuario = await Usuario.findByPk(id);
+  if (!usuario) return res.status(404).json({ error: "Usuario no encontrado" });
+  await usuario.destroy();
+  res.status(204).send();
 });
 
 //LOGIN ADMIN
