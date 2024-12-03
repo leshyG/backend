@@ -1,6 +1,6 @@
 import { Sequelize } from "sequelize";
-export const sequelize= new Sequelize('container_db','gonzalo','TKgposH3YKCse4BAIZMlUI8QpniEYxoI',{
-    host: 'dpg-csvv4v1opnds73a5ia00-a',
+export const sequelize= new Sequelize('container_db','gonzalo','Er9FQSETIlbCM98Jxk8ZpqSDomh3HNqw',{
+    host: 'dpg-ct7j53t2ng1s73cgcjl0-a',
     dialect: 'postgres'
 });
 
